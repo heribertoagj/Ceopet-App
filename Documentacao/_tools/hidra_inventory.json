@@ -1,0 +1,5888 @@
+{
+  "base_path": "C:\\Users\\herib\\OneDrive\\Documents\\Workspace\\Ceopet-App\\Documentacao\\Hidra",
+  "tables": {
+    "NFe_ITEM.DBF": {
+      "records": 0,
+      "fields": [
+        {
+          "name": "I_EMIT",
+          "type": "C",
+          "length": 14,
+          "decimals": 0
+        },
+        {
+          "name": "I_AAMM",
+          "type": "C",
+          "length": 6,
+          "decimals": 0
+        },
+        {
+          "name": "I_DEST",
+          "type": "C",
+          "length": 14,
+          "decimals": 0
+        },
+        {
+          "name": "I_ENSA",
+          "type": "C",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "I_MARC",
+          "type": "C",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "I_EMIS",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "I_NUME",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "I_CODI",
+          "type": "C",
+          "length": 20,
+          "decimals": 0
+        },
+        {
+          "name": "I_PROD",
+          "type": "C",
+          "length": 20,
+          "decimals": 0
+        },
+        {
+          "name": "I_NOME",
+          "type": "C",
+          "length": 40,
+          "decimals": 0
+        },
+        {
+          "name": "I_XEAN",
+          "type": "C",
+          "length": 13,
+          "decimals": 0
+        },
+        {
+          "name": "I_XNCM",
+          "type": "C",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "I_CFOP",
+          "type": "C",
+          "length": 4,
+          "decimals": 0
+        },
+        {
+          "name": "I_UNID",
+          "type": "C",
+          "length": 6,
+          "decimals": 0
+        },
+        {
+          "name": "I_QDEN",
+          "type": "N",
+          "length": 12,
+          "decimals": 3
+        },
+        {
+          "name": "I_VALO",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "I_DESC",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "I_NSEQ",
+          "type": "N",
+          "length": 4,
+          "decimals": 0
+        },
+        {
+          "name": "I_MODE",
+          "type": "C",
+          "length": 2,
+          "decimals": 0
+        },
+        {
+          "name": "I_SERI",
+          "type": "C",
+          "length": 3,
+          "decimals": 0
+        },
+        {
+          "name": "I_ORIG",
+          "type": "C",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "I_TICM",
+          "type": "C",
+          "length": 3,
+          "decimals": 0
+        },
+        {
+          "name": "I_BCIC",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "I_AICM",
+          "type": "N",
+          "length": 6,
+          "decimals": 2
+        },
+        {
+          "name": "I_VICM",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "I_PIVA",
+          "type": "N",
+          "length": 6,
+          "decimals": 2
+        },
+        {
+          "name": "I_ARST",
+          "type": "N",
+          "length": 6,
+          "decimals": 2
+        },
+        {
+          "name": "I_BCST",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "I_PIST",
+          "type": "N",
+          "length": 6,
+          "decimals": 2
+        },
+        {
+          "name": "I_VIST",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "I_AICR",
+          "type": "N",
+          "length": 6,
+          "decimals": 2
+        },
+        {
+          "name": "I_PCST",
+          "type": "C",
+          "length": 3,
+          "decimals": 0
+        },
+        {
+          "name": "I_PBAS",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "I_APIS",
+          "type": "N",
+          "length": 6,
+          "decimals": 2
+        },
+        {
+          "name": "I_VPIS",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "I_CCST",
+          "type": "C",
+          "length": 3,
+          "decimals": 0
+        },
+        {
+          "name": "I_CBAS",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "I_ACOF",
+          "type": "N",
+          "length": 6,
+          "decimals": 2
+        },
+        {
+          "name": "I_VCOF",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "I_CIPI",
+          "type": "C",
+          "length": 2,
+          "decimals": 0
+        },
+        {
+          "name": "I_CENQ",
+          "type": "C",
+          "length": 3,
+          "decimals": 0
+        },
+        {
+          "name": "I_VFRE",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "I_BIPI",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "I_AIPI",
+          "type": "N",
+          "length": 6,
+          "decimals": 2
+        },
+        {
+          "name": "I_VIPI",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        }
+      ]
+    },
+    "NFe_NOTA.DBF": {
+      "records": 0,
+      "fields": [
+        {
+          "name": "N_EMIT",
+          "type": "C",
+          "length": 14,
+          "decimals": 0
+        },
+        {
+          "name": "N_AAMM",
+          "type": "C",
+          "length": 6,
+          "decimals": 0
+        },
+        {
+          "name": "N_DEST",
+          "type": "C",
+          "length": 14,
+          "decimals": 0
+        },
+        {
+          "name": "N_ENSA",
+          "type": "C",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "N_ETER",
+          "type": "C",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "N_CHAV",
+          "type": "C",
+          "length": 50,
+          "decimals": 0
+        },
+        {
+          "name": "N_IEST",
+          "type": "C",
+          "length": 14,
+          "decimals": 0
+        },
+        {
+          "name": "N_ESTA",
+          "type": "C",
+          "length": 2,
+          "decimals": 0
+        },
+        {
+          "name": "N_EMIS",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "N_NUME",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "N_TIPO",
+          "type": "C",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "N_NATU",
+          "type": "C",
+          "length": 30,
+          "decimals": 0
+        },
+        {
+          "name": "N_CPAG",
+          "type": "C",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "N_MFRE",
+          "type": "C",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "N_MODE",
+          "type": "C",
+          "length": 2,
+          "decimals": 0
+        },
+        {
+          "name": "N_SERI",
+          "type": "C",
+          "length": 3,
+          "decimals": 0
+        },
+        {
+          "name": "N_VERS",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "N_BASE",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "N_VICM",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "N_BCST",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "N_VCST",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "N_VPRO",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "N_VFRE",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "N_VSEG",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "N_DESC",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "N_VIMP",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "N_VIPI",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "N_VPIS",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "N_VCOF",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "N_VOUT",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "N_TOTA",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "N_QVOL",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "N_ESPE",
+          "type": "C",
+          "length": 20,
+          "decimals": 0
+        },
+        {
+          "name": "N_PESL",
+          "type": "N",
+          "length": 12,
+          "decimals": 3
+        },
+        {
+          "name": "N_PESB",
+          "type": "N",
+          "length": 12,
+          "decimals": 3
+        },
+        {
+          "name": "N_ARQU",
+          "type": "C",
+          "length": 120,
+          "decimals": 0
+        },
+        {
+          "name": "N_NARQ",
+          "type": "C",
+          "length": 60,
+          "decimals": 0
+        },
+        {
+          "name": "N_JUST",
+          "type": "C",
+          "length": 60,
+          "decimals": 0
+        },
+        {
+          "name": "N_DATC",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "N_HORC",
+          "type": "C",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "N_NIVE",
+          "type": "N",
+          "length": 2,
+          "decimals": 0
+        },
+        {
+          "name": "N_TENT",
+          "type": "N",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "N_ENVI",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        }
+      ]
+    },
+    "PDA_CLIE.DBF": {
+      "records": 0,
+      "fields": [
+        {
+          "name": "CN_EMIT",
+          "type": "C",
+          "length": 14,
+          "decimals": 0
+        },
+        {
+          "name": "CN_STAT",
+          "type": "C",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "CN_DEST",
+          "type": "C",
+          "length": 14,
+          "decimals": 0
+        },
+        {
+          "name": "CN_NOME",
+          "type": "C",
+          "length": 50,
+          "decimals": 0
+        },
+        {
+          "name": "CN_ENDE",
+          "type": "C",
+          "length": 50,
+          "decimals": 0
+        },
+        {
+          "name": "CN_BAIR",
+          "type": "C",
+          "length": 25,
+          "decimals": 0
+        },
+        {
+          "name": "CN_CIDA",
+          "type": "C",
+          "length": 30,
+          "decimals": 0
+        },
+        {
+          "name": "CN_ESTA",
+          "type": "C",
+          "length": 2,
+          "decimals": 0
+        },
+        {
+          "name": "CN_CEPN",
+          "type": "C",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "CN_FONE",
+          "type": "C",
+          "length": 15,
+          "decimals": 0
+        },
+        {
+          "name": "CN_IEST",
+          "type": "C",
+          "length": 20,
+          "decimals": 0
+        },
+        {
+          "name": "CN_EMAI",
+          "type": "C",
+          "length": 50,
+          "decimals": 0
+        },
+        {
+          "name": "CN_DCAD",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "CN_HCAD",
+          "type": "C",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "CN_CONT",
+          "type": "C",
+          "length": 20,
+          "decimals": 0
+        },
+        {
+          "name": "CN_OBSE",
+          "type": "C",
+          "length": 200,
+          "decimals": 0
+        },
+        {
+          "name": "CN_FANT",
+          "type": "C",
+          "length": 50,
+          "decimals": 0
+        },
+        {
+          "name": "CN_REPR",
+          "type": "C",
+          "length": 14,
+          "decimals": 0
+        },
+        {
+          "name": "CN_OUTF",
+          "type": "C",
+          "length": 30,
+          "decimals": 0
+        }
+      ]
+    },
+    "PDA_CLIE_000.DBF": {
+      "records": 0,
+      "fields": [
+        {
+          "name": "CN_EMIT",
+          "type": "C",
+          "length": 14,
+          "decimals": 0
+        },
+        {
+          "name": "CN_STAT",
+          "type": "C",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "CN_DEST",
+          "type": "C",
+          "length": 14,
+          "decimals": 0
+        },
+        {
+          "name": "CN_NOME",
+          "type": "C",
+          "length": 50,
+          "decimals": 0
+        },
+        {
+          "name": "CN_ENDE",
+          "type": "C",
+          "length": 50,
+          "decimals": 0
+        },
+        {
+          "name": "CN_BAIR",
+          "type": "C",
+          "length": 25,
+          "decimals": 0
+        },
+        {
+          "name": "CN_CIDA",
+          "type": "C",
+          "length": 30,
+          "decimals": 0
+        },
+        {
+          "name": "CN_ESTA",
+          "type": "C",
+          "length": 2,
+          "decimals": 0
+        },
+        {
+          "name": "CN_CEPN",
+          "type": "C",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "CN_FONE",
+          "type": "C",
+          "length": 15,
+          "decimals": 0
+        },
+        {
+          "name": "CN_IEST",
+          "type": "C",
+          "length": 20,
+          "decimals": 0
+        },
+        {
+          "name": "CN_EMAI",
+          "type": "C",
+          "length": 50,
+          "decimals": 0
+        },
+        {
+          "name": "CN_DCAD",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "CN_HCAD",
+          "type": "C",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "CN_CONT",
+          "type": "C",
+          "length": 20,
+          "decimals": 0
+        },
+        {
+          "name": "CN_OBSE",
+          "type": "C",
+          "length": 200,
+          "decimals": 0
+        },
+        {
+          "name": "CN_FANT",
+          "type": "C",
+          "length": 50,
+          "decimals": 0
+        },
+        {
+          "name": "CN_REPR",
+          "type": "C",
+          "length": 14,
+          "decimals": 0
+        }
+      ]
+    },
+    "PDA_ITEM.DBF": {
+      "records": 0,
+      "fields": [
+        {
+          "name": "IT_EMIT",
+          "type": "C",
+          "length": 14,
+          "decimals": 0
+        },
+        {
+          "name": "IT_SIST",
+          "type": "C",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "IT_NUME",
+          "type": "N",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "IT_PEDI",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "IT_SEQU",
+          "type": "C",
+          "length": 3,
+          "decimals": 0
+        },
+        {
+          "name": "IT_DEST",
+          "type": "C",
+          "length": 14,
+          "decimals": 0
+        },
+        {
+          "name": "IT_CLIE",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "IT_REPR",
+          "type": "C",
+          "length": 14,
+          "decimals": 0
+        },
+        {
+          "name": "IT_CREP",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "IT_CPRO",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "IT_NPRO",
+          "type": "C",
+          "length": 40,
+          "decimals": 0
+        },
+        {
+          "name": "IT_TIPO",
+          "type": "N",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "IT_UNID",
+          "type": "C",
+          "length": 3,
+          "decimals": 0
+        },
+        {
+          "name": "IT_REFE",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "IT_DATA",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "IT_FABR",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "IT_VALI",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "IT_LOTE",
+          "type": "C",
+          "length": 20,
+          "decimals": 0
+        },
+        {
+          "name": "IT_QDEN",
+          "type": "N",
+          "length": 12,
+          "decimals": 3
+        },
+        {
+          "name": "IT_RECE",
+          "type": "N",
+          "length": 12,
+          "decimals": 3
+        },
+        {
+          "name": "IT_BRUT",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "IT_DES1",
+          "type": "N",
+          "length": 8,
+          "decimals": 4
+        },
+        {
+          "name": "IT_DES2",
+          "type": "N",
+          "length": 8,
+          "decimals": 4
+        },
+        {
+          "name": "IT_LIQU",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "IT_CUST",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "IT_LIST",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "IT_PESO",
+          "type": "N",
+          "length": 12,
+          "decimals": 3
+        },
+        {
+          "name": "IT_UTIL",
+          "type": "N",
+          "length": 12,
+          "decimals": 4
+        },
+        {
+          "name": "IT_GERA",
+          "type": "N",
+          "length": 12,
+          "decimals": 4
+        },
+        {
+          "name": "IT_CBAI",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "IT_ITAB",
+          "type": "C",
+          "length": 1,
+          "decimals": 0
+        }
+      ]
+    },
+    "PDA_PEDI.DBF": {
+      "records": 0,
+      "fields": [
+        {
+          "name": "PD_EMIT",
+          "type": "C",
+          "length": 14,
+          "decimals": 0
+        },
+        {
+          "name": "PD_SIST",
+          "type": "C",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "PD_LIBE",
+          "type": "C",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "PD_NUME",
+          "type": "N",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "PD_PEDI",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "PD_DATA",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "PD_HORA",
+          "type": "C",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "PD_TRAN",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "PD_EMIS",
+          "type": "C",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "PD_DEST",
+          "type": "C",
+          "length": 14,
+          "decimals": 0
+        },
+        {
+          "name": "PD_CCLI",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "PD_DAT1",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "PD_HOR1",
+          "type": "C",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "PD_DAT2",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "PD_HOR2",
+          "type": "C",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "PD_REPR",
+          "type": "C",
+          "length": 14,
+          "decimals": 0
+        },
+        {
+          "name": "PD_CREP",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "PD_TABP",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "PD_PORT",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "PD_PZ01",
+          "type": "N",
+          "length": 3,
+          "decimals": 0
+        },
+        {
+          "name": "PD_PZ02",
+          "type": "N",
+          "length": 3,
+          "decimals": 0
+        },
+        {
+          "name": "PD_PZ03",
+          "type": "N",
+          "length": 3,
+          "decimals": 0
+        },
+        {
+          "name": "PD_PZ04",
+          "type": "N",
+          "length": 3,
+          "decimals": 0
+        },
+        {
+          "name": "PD_PZ05",
+          "type": "N",
+          "length": 3,
+          "decimals": 0
+        },
+        {
+          "name": "PD_PZ06",
+          "type": "N",
+          "length": 3,
+          "decimals": 0
+        },
+        {
+          "name": "PD_PZ07",
+          "type": "N",
+          "length": 3,
+          "decimals": 0
+        },
+        {
+          "name": "PD_PZ08",
+          "type": "N",
+          "length": 3,
+          "decimals": 0
+        },
+        {
+          "name": "PD_PZ09",
+          "type": "N",
+          "length": 3,
+          "decimals": 0
+        },
+        {
+          "name": "PD_PZ10",
+          "type": "N",
+          "length": 3,
+          "decimals": 0
+        },
+        {
+          "name": "PD_OBSE",
+          "type": "C",
+          "length": 120,
+          "decimals": 0
+        },
+        {
+          "name": "PD_SITU",
+          "type": "C",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "PD_PROG",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "PD_TABE",
+          "type": "C",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "PD_TOTA",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "PD_DES1",
+          "type": "N",
+          "length": 8,
+          "decimals": 4
+        },
+        {
+          "name": "PD_DES2",
+          "type": "N",
+          "length": 8,
+          "decimals": 4
+        },
+        {
+          "name": "PD_PDES",
+          "type": "N",
+          "length": 8,
+          "decimals": 4
+        },
+        {
+          "name": "PD_VALO",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "PD_LIST",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "PD_PESO",
+          "type": "N",
+          "length": 12,
+          "decimals": 3
+        },
+        {
+          "name": "PD_EMIX",
+          "type": "L",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "PD_LIBX",
+          "type": "L",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "PD_MARX",
+          "type": "L",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "PD_UTIL",
+          "type": "N",
+          "length": 12,
+          "decimals": 4
+        },
+        {
+          "name": "PD_GERA",
+          "type": "N",
+          "length": 12,
+          "decimals": 4
+        },
+        {
+          "name": "PD_FIDE",
+          "type": "N",
+          "length": 12,
+          "decimals": 4
+        },
+        {
+          "name": "PD_ORIG",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        }
+      ]
+    },
+    "SCD_ATIV.DBF": {
+      "records": 1,
+      "fields": [
+        {
+          "name": "AT_EMIT",
+          "type": "C",
+          "length": 14,
+          "decimals": 0
+        },
+        {
+          "name": "AT_CODI",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "AT_NOME",
+          "type": "C",
+          "length": 30,
+          "decimals": 0
+        },
+        {
+          "name": "AT_SELE",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        }
+      ]
+    },
+    "SCD_BANC.DBF": {
+      "records": 1,
+      "fields": [
+        {
+          "name": "B_EMIT",
+          "type": "C",
+          "length": 14,
+          "decimals": 0
+        },
+        {
+          "name": "B_CODI",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "B_NOME",
+          "type": "C",
+          "length": 30,
+          "decimals": 0
+        },
+        {
+          "name": "B_CBAN",
+          "type": "C",
+          "length": 3,
+          "decimals": 0
+        },
+        {
+          "name": "B_NBAN",
+          "type": "C",
+          "length": 30,
+          "decimals": 0
+        },
+        {
+          "name": "B_NEMP",
+          "type": "C",
+          "length": 30,
+          "decimals": 0
+        },
+        {
+          "name": "B_CEMP",
+          "type": "C",
+          "length": 20,
+          "decimals": 0
+        },
+        {
+          "name": "B_AGEN",
+          "type": "C",
+          "length": 5,
+          "decimals": 0
+        },
+        {
+          "name": "B_CCOR",
+          "type": "C",
+          "length": 9,
+          "decimals": 0
+        },
+        {
+          "name": "B_NCON",
+          "type": "C",
+          "length": 9,
+          "decimals": 0
+        },
+        {
+          "name": "B_CART",
+          "type": "C",
+          "length": 5,
+          "decimals": 0
+        },
+        {
+          "name": "B_ACEI",
+          "type": "C",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "B_NNUM",
+          "type": "C",
+          "length": 12,
+          "decimals": 0
+        },
+        {
+          "name": "B_SNUM",
+          "type": "C",
+          "length": 7,
+          "decimals": 0
+        },
+        {
+          "name": "B_MEN1",
+          "type": "C",
+          "length": 2,
+          "decimals": 0
+        },
+        {
+          "name": "B_MEN2",
+          "type": "C",
+          "length": 2,
+          "decimals": 0
+        },
+        {
+          "name": "B_REGI",
+          "type": "C",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "B_PROT",
+          "type": "C",
+          "length": 2,
+          "decimals": 0
+        },
+        {
+          "name": "B_LOC1",
+          "type": "C",
+          "length": 55,
+          "decimals": 0
+        },
+        {
+          "name": "B_LOC2",
+          "type": "C",
+          "length": 55,
+          "decimals": 0
+        },
+        {
+          "name": "B_MB01",
+          "type": "C",
+          "length": 69,
+          "decimals": 0
+        },
+        {
+          "name": "B_MB02",
+          "type": "C",
+          "length": 69,
+          "decimals": 0
+        },
+        {
+          "name": "B_MB03",
+          "type": "C",
+          "length": 69,
+          "decimals": 0
+        },
+        {
+          "name": "B_MB04",
+          "type": "C",
+          "length": 69,
+          "decimals": 0
+        },
+        {
+          "name": "B_MB05",
+          "type": "C",
+          "length": 69,
+          "decimals": 0
+        },
+        {
+          "name": "B_MB06",
+          "type": "C",
+          "length": 69,
+          "decimals": 0
+        },
+        {
+          "name": "B_MB07",
+          "type": "C",
+          "length": 69,
+          "decimals": 0
+        },
+        {
+          "name": "B_MB08",
+          "type": "C",
+          "length": 69,
+          "decimals": 0
+        },
+        {
+          "name": "B_MB09",
+          "type": "C",
+          "length": 69,
+          "decimals": 0
+        },
+        {
+          "name": "B_MULT",
+          "type": "N",
+          "length": 8,
+          "decimals": 4
+        },
+        {
+          "name": "B_SELE",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "B_CNAB",
+          "type": "N",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "B_REME",
+          "type": "N",
+          "length": 2,
+          "decimals": 0
+        },
+        {
+          "name": "B_IMBO",
+          "type": "N",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "B_MOED",
+          "type": "N",
+          "length": 1,
+          "decimals": 0
+        }
+      ]
+    },
+    "SCD_CAIX.DBF": {
+      "records": 1,
+      "fields": [
+        {
+          "name": "C_EMIT",
+          "type": "C",
+          "length": 14,
+          "decimals": 0
+        },
+        {
+          "name": "C_CODI",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "C_NOME",
+          "type": "C",
+          "length": 30,
+          "decimals": 0
+        },
+        {
+          "name": "C_NREC",
+          "type": "N",
+          "length": 6,
+          "decimals": 0
+        },
+        {
+          "name": "C_DATA",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "C_HORA",
+          "type": "C",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "C_VALI",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "C_SALD",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        }
+      ]
+    },
+    "SCD_CATE.DBF": {
+      "records": 0,
+      "fields": [
+        {
+          "name": "CT_EMIT",
+          "type": "C",
+          "length": 14,
+          "decimals": 0
+        },
+        {
+          "name": "CT_CODI",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "CT_NOME",
+          "type": "C",
+          "length": 30,
+          "decimals": 0
+        },
+        {
+          "name": "CT_SELE",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        }
+      ]
+    },
+    "SCD_CFOP.DBF": {
+      "records": 4,
+      "fields": [
+        {
+          "name": "CF_EMIT",
+          "type": "C",
+          "length": 14,
+          "decimals": 0
+        },
+        {
+          "name": "CF_CODI",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "CF_NOME",
+          "type": "C",
+          "length": 30,
+          "decimals": 0
+        },
+        {
+          "name": "CF_SELE",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        }
+      ]
+    },
+    "SCD_CHEQ.DBF": {
+      "records": 0,
+      "fields": [
+        {
+          "name": "C_EMIT",
+          "type": "C",
+          "length": 14,
+          "decimals": 0
+        },
+        {
+          "name": "C_BANC",
+          "type": "C",
+          "length": 3,
+          "decimals": 0
+        },
+        {
+          "name": "C_NBAN",
+          "type": "C",
+          "length": 15,
+          "decimals": 0
+        },
+        {
+          "name": "C_EMIS",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "C_CHEQ",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "C_VALO",
+          "type": "N",
+          "length": 14,
+          "decimals": 2
+        },
+        {
+          "name": "C_VENC",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "C_CODI",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "C_TITU",
+          "type": "C",
+          "length": 50,
+          "decimals": 0
+        },
+        {
+          "name": "C_DOCU",
+          "type": "N",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "C_DATA",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "C_AGEN",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "C_CONT",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "C_LANC",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "C_TERC",
+          "type": "C",
+          "length": 50,
+          "decimals": 0
+        },
+        {
+          "name": "C_FONE",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "C_CONV",
+          "type": "C",
+          "length": 20,
+          "decimals": 0
+        },
+        {
+          "name": "C_STAT",
+          "type": "C",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "C_CONB",
+          "type": "C",
+          "length": 3,
+          "decimals": 0
+        },
+        {
+          "name": "C_CONN",
+          "type": "C",
+          "length": 15,
+          "decimals": 0
+        },
+        {
+          "name": "C_COND",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "C_CONO",
+          "type": "C",
+          "length": 19,
+          "decimals": 0
+        },
+        {
+          "name": "C_DEVD",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "C_DEVO",
+          "type": "C",
+          "length": 19,
+          "decimals": 0
+        },
+        {
+          "name": "C_BAID",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "C_BAIO",
+          "type": "C",
+          "length": 19,
+          "decimals": 0
+        },
+        {
+          "name": "C_DECR",
+          "type": "C",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "C_FORN",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "C_DOCC",
+          "type": "N",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "C_DATC",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "C_FONF",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "C_CONF",
+          "type": "C",
+          "length": 20,
+          "decimals": 0
+        },
+        {
+          "name": "C_OBSE",
+          "type": "C",
+          "length": 50,
+          "decimals": 0
+        },
+        {
+          "name": "C_SITU",
+          "type": "N",
+          "length": 2,
+          "decimals": 0
+        },
+        {
+          "name": "C_TIPO",
+          "type": "C",
+          "length": 3,
+          "decimals": 0
+        }
+      ]
+    },
+    "SCD_COND.DBF": {
+      "records": 6,
+      "fields": [
+        {
+          "name": "CP_EMIT",
+          "type": "C",
+          "length": 14,
+          "decimals": 0
+        },
+        {
+          "name": "CP_CODI",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "CP_PZ01",
+          "type": "N",
+          "length": 3,
+          "decimals": 0
+        },
+        {
+          "name": "CP_PZ02",
+          "type": "N",
+          "length": 3,
+          "decimals": 0
+        },
+        {
+          "name": "CP_PZ03",
+          "type": "N",
+          "length": 3,
+          "decimals": 0
+        },
+        {
+          "name": "CP_PZ04",
+          "type": "N",
+          "length": 3,
+          "decimals": 0
+        },
+        {
+          "name": "CP_PZ05",
+          "type": "N",
+          "length": 3,
+          "decimals": 0
+        },
+        {
+          "name": "CP_PZ06",
+          "type": "N",
+          "length": 3,
+          "decimals": 0
+        },
+        {
+          "name": "CP_PZ07",
+          "type": "N",
+          "length": 3,
+          "decimals": 0
+        },
+        {
+          "name": "CP_PZ08",
+          "type": "N",
+          "length": 3,
+          "decimals": 0
+        },
+        {
+          "name": "CP_PZ09",
+          "type": "N",
+          "length": 3,
+          "decimals": 0
+        },
+        {
+          "name": "CP_PZ10",
+          "type": "N",
+          "length": 3,
+          "decimals": 0
+        },
+        {
+          "name": "CP_FORM",
+          "type": "N",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "CP_MINI",
+          "type": "N",
+          "length": 15,
+          "decimals": 2
+        },
+        {
+          "name": "CP_DESC",
+          "type": "N",
+          "length": 6,
+          "decimals": 2
+        },
+        {
+          "name": "CP_SELE",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "CP_LIBI",
+          "type": "N",
+          "length": 1,
+          "decimals": 0
+        }
+      ]
+    },
+    "SCD_CONT.DBF": {
+      "records": 7,
+      "fields": [
+        {
+          "name": "D_EMIT",
+          "type": "C",
+          "length": 14,
+          "decimals": 0
+        },
+        {
+          "name": "D_SITU",
+          "type": "C",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "D_TIPO",
+          "type": "C",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "D_STAT",
+          "type": "C",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "D_RESP",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "D_REPR",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "D_DESP",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "D_NUME",
+          "type": "N",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "D_SEQN",
+          "type": "N",
+          "length": 2,
+          "decimals": 0
+        },
+        {
+          "name": "D_NOTA",
+          "type": "N",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "D_EMIS",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "D_VENC",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "D_PAGA",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "D_DEVO",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "D_VALO",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "D_VALP",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "D_VARI",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "D_ADIC",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "D_PORT",
+          "type": "N",
+          "length": 2,
+          "decimals": 0
+        },
+        {
+          "name": "D_BANC",
+          "type": "C",
+          "length": 3,
+          "decimals": 0
+        },
+        {
+          "name": "D_BOLE",
+          "type": "C",
+          "length": 20,
+          "decimals": 0
+        },
+        {
+          "name": "D_BNUM",
+          "type": "C",
+          "length": 3,
+          "decimals": 0
+        },
+        {
+          "name": "D_BNOM",
+          "type": "C",
+          "length": 30,
+          "decimals": 0
+        },
+        {
+          "name": "D_OBSN",
+          "type": "C",
+          "length": 60,
+          "decimals": 0
+        },
+        {
+          "name": "D_COMI",
+          "type": "N",
+          "length": 8,
+          "decimals": 4
+        },
+        {
+          "name": "D_AVIS",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "D_HORA",
+          "type": "C",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "D_USUA",
+          "type": "C",
+          "length": 20,
+          "decimals": 0
+        },
+        {
+          "name": "D_UDAT",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "D_UHOR",
+          "type": "C",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "D_UTIP",
+          "type": "C",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "D_MARC",
+          "type": "C",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "D_ARQU",
+          "type": "C",
+          "length": 15,
+          "decimals": 0
+        },
+        {
+          "name": "D_SELE",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "D_ENVI",
+          "type": "N",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "D_EDAT",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "D_EHOR",
+          "type": "C",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "D_ENVE",
+          "type": "N",
+          "length": 5,
+          "decimals": 0
+        },
+        {
+          "name": "D_IMPR",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "D_REME",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        }
+      ]
+    },
+    "SCD_DESP.DBF": {
+      "records": 11,
+      "fields": [
+        {
+          "name": "CC_EMIT",
+          "type": "C",
+          "length": 14,
+          "decimals": 0
+        },
+        {
+          "name": "CC_CODI",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "CC_NOME",
+          "type": "C",
+          "length": 30,
+          "decimals": 0
+        },
+        {
+          "name": "CC_SELE",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "CC_DECR",
+          "type": "C",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "CC_DATA",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "CC_VALO",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        }
+      ]
+    },
+    "SCD_DESP_000.DBF": {
+      "records": 0,
+      "fields": [
+        {
+          "name": "CC_EMIT",
+          "type": "C",
+          "length": 14,
+          "decimals": 0
+        },
+        {
+          "name": "CC_CODI",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "CC_NOME",
+          "type": "C",
+          "length": 30,
+          "decimals": 0
+        },
+        {
+          "name": "CC_SELE",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        }
+      ]
+    },
+    "SCD_EMIT.DBF": {
+      "records": 538976257,
+      "fields": [
+        {
+          "name": "E_EMIT     ",
+          "type": "C",
+          "length": 14,
+          "decimals": 32
+        },
+        {
+          "name": "E_NOME     ",
+          "type": "C",
+          "length": 50,
+          "decimals": 32
+        },
+        {
+          "name": "E_FANT     ",
+          "type": "C",
+          "length": 50,
+          "decimals": 32
+        },
+        {
+          "name": "E_ENDE     ",
+          "type": "C",
+          "length": 50,
+          "decimals": 32
+        },
+        {
+          "name": "E_BAIR     ",
+          "type": "C",
+          "length": 25,
+          "decimals": 32
+        },
+        {
+          "name": "E_CNAE     ",
+          "type": "C",
+          "length": 20,
+          "decimals": 32
+        },
+        {
+          "name": "E_CMUN     ",
+          "type": "C",
+          "length": 7,
+          "decimals": 32
+        },
+        {
+          "name": "E_XMUN     ",
+          "type": "C",
+          "length": 30,
+          "decimals": 32
+        },
+        {
+          "name": "E_ESTA     ",
+          "type": "C",
+          "length": 2,
+          "decimals": 32
+        },
+        {
+          "name": "E_CEPN     ",
+          "type": "C",
+          "length": 8,
+          "decimals": 32
+        },
+        {
+          "name": "E_FONE     ",
+          "type": "C",
+          "length": 15,
+          "decimals": 32
+        },
+        {
+          "name": "E_IEST     ",
+          "type": "C",
+          "length": 20,
+          "decimals": 32
+        },
+        {
+          "name": "E_PAIS     ",
+          "type": "C",
+          "length": 30,
+          "decimals": 32
+        },
+        {
+          "name": "E_EMAI     ",
+          "type": "C",
+          "length": 50,
+          "decimals": 32
+        },
+        {
+          "name": "E_LIBE     ",
+          "type": "N",
+          "length": 1,
+          "decimals": 32
+        },
+        {
+          "name": "E_DATL     ",
+          "type": "D",
+          "length": 8,
+          "decimals": 32
+        },
+        {
+          "name": "E_NUME     ",
+          "type": "C",
+          "length": 8,
+          "decimals": 32
+        },
+        {
+          "name": "E_NUML     ",
+          "type": "C",
+          "length": 8,
+          "decimals": 32
+        },
+        {
+          "name": "E_DAT1     ",
+          "type": "D",
+          "length": 8,
+          "decimals": 32
+        },
+        {
+          "name": "E_DAT2     ",
+          "type": "D",
+          "length": 8,
+          "decimals": 32
+        },
+        {
+          "name": "E_HIST     ",
+          "type": "C",
+          "length": 100,
+          "decimals": 32
+        },
+        {
+          "name": "E_CRTN     ",
+          "type": "C",
+          "length": 1,
+          "decimals": 32
+        },
+        {
+          "name": "E_FEMI     ",
+          "type": "C",
+          "length": 1,
+          "decimals": 32
+        },
+        {
+          "name": "E_USUA     ",
+          "type": "C",
+          "length": 50,
+          "decimals": 32
+        },
+        {
+          "name": "E_REME     ",
+          "type": "C",
+          "length": 50,
+          "decimals": 32
+        },
+        {
+          "name": "E_ASSU     ",
+          "type": "C",
+          "length": 100,
+          "decimals": 32
+        },
+        {
+          "name": "E_ADEB     ",
+          "type": "C",
+          "length": 100,
+          "decimals": 32
+        },
+        {
+          "name": "E_NDEE     ",
+          "type": "N",
+          "length": 3,
+          "decimals": 32
+        },
+        {
+          "name": "E_NQEM     ",
+          "type": "N",
+          "length": 4,
+          "decimals": 32
+        },
+        {
+          "name": "E_ENBO     ",
+          "type": "N",
+          "length": 1,
+          "decimals": 32
+        },
+        {
+          "name": "E_SENH     ",
+          "type": "C",
+          "length": 20,
+          "decimals": 32
+        },
+        {
+          "name": "E_SERV     ",
+          "type": "N",
+          "length": 2,
+          "decimals": 32
+        },
+        {
+          "name": "E_SERI     ",
+          "type": "C",
+          "length": 3,
+          "decimals": 32
+        },
+        {
+          "name": "E_NUNF     ",
+          "type": "N",
+          "length": 8,
+          "decimals": 32
+        },
+        {
+          "name": "E_VERS     ",
+          "type": "C",
+          "length": 10,
+          "decimals": 32
+        },
+        {
+          "name": "E_ICMS     ",
+          "type": "N",
+          "length": 8,
+          "decimals": 4
+        },
+        {
+          "name": "E_DESC     ",
+          "type": "N",
+          "length": 8,
+          "decimals": 4
+        },
+        {
+          "name": "E_FAX1     ",
+          "type": "N",
+          "length": 12,
+          "decimals": 3
+        },
+        {
+          "name": "E_FAX2     ",
+          "type": "N",
+          "length": 12,
+          "decimals": 3
+        },
+        {
+          "name": "E_FAX3     ",
+          "type": "N",
+          "length": 12,
+          "decimals": 3
+        },
+        {
+          "name": "E_FAX4     ",
+          "type": "N",
+          "length": 12,
+          "decimals": 3
+        },
+        {
+          "name": "E_FAX5     ",
+          "type": "N",
+          "length": 12,
+          "decimals": 3
+        },
+        {
+          "name": "E_FAD1     ",
+          "type": "N",
+          "length": 12,
+          "decimals": 3
+        },
+        {
+          "name": "E_FAD2     ",
+          "type": "N",
+          "length": 12,
+          "decimals": 3
+        },
+        {
+          "name": "E_FAD3     ",
+          "type": "N",
+          "length": 12,
+          "decimals": 3
+        },
+        {
+          "name": "E_FAD4     ",
+          "type": "N",
+          "length": 12,
+          "decimals": 3
+        },
+        {
+          "name": "E_FAD5     ",
+          "type": "N",
+          "length": 12,
+          "decimals": 3
+        },
+        {
+          "name": "E_TTAB     ",
+          "type": "N",
+          "length": 1,
+          "decimals": 32
+        },
+        {
+          "name": "E_CART     ",
+          "type": "N",
+          "length": 1,
+          "decimals": 32
+        },
+        {
+          "name": "E_DEPO     ",
+          "type": "N",
+          "length": 1,
+          "decimals": 32
+        },
+        {
+          "name": "E_BOLE     ",
+          "type": "N",
+          "length": 1,
+          "decimals": 32
+        },
+        {
+          "name": "E_CHEQ     ",
+          "type": "N",
+          "length": 1,
+          "decimals": 32
+        },
+        {
+          "name": "E_DINH     ",
+          "type": "N",
+          "length": 1,
+          "decimals": 32
+        },
+        {
+          "name": "E_PSEG     ",
+          "type": "N",
+          "length": 1,
+          "decimals": 32
+        },
+        {
+          "name": "E_MINI     ",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "E_DMIN     ",
+          "type": "N",
+          "length": 1,
+          "decimals": 32
+        },
+        {
+          "name": "E_DIVI     ",
+          "type": "C",
+          "length": 20,
+          "decimals": 32
+        },
+        {
+          "name": "E_MENS     ",
+          "type": "C",
+          "length": 120,
+          "decimals": 32
+        },
+        {
+          "name": "E_REMS     ",
+          "type": "C",
+          "length": 100,
+          "decimals": 32
+        },
+        {
+          "name": "E_RETO     ",
+          "type": "C",
+          "length": 100,
+          "decimals": 32
+        },
+        {
+          "name": "E_LIXE     ",
+          "type": "C",
+          "length": 100,
+          "decimals": 32
+        },
+        {
+          "name": "E_ANFE     ",
+          "type": "C",
+          "length": 100,
+          "decimals": 32
+        },
+        {
+          "name": "E_ABOL     ",
+          "type": "C",
+          "length": 100,
+          "decimals": 32
+        },
+        {
+          "name": "E_LOGO     ",
+          "type": "C",
+          "length": 100,
+          "decimals": 32
+        },
+        {
+          "name": "E_AVIS     ",
+          "type": "C",
+          "length": 200,
+          "decimals": 32
+        },
+        {
+          "name": "E_OBSE     ",
+          "type": "C",
+          "length": 180,
+          "decimals": 32
+        },
+        {
+          "name": "E_CTPI     ",
+          "type": "C",
+          "length": 2,
+          "decimals": 32
+        },
+        {
+          "name": "E_CIPI     ",
+          "type": "C",
+          "length": 2,
+          "decimals": 32
+        },
+        {
+          "name": "E_PPIS     ",
+          "type": "N",
+          "length": 6,
+          "decimals": 2
+        },
+        {
+          "name": "E_CTCO     ",
+          "type": "C",
+          "length": 2,
+          "decimals": 32
+        },
+        {
+          "name": "E_CICO     ",
+          "type": "C",
+          "length": 2,
+          "decimals": 32
+        },
+        {
+          "name": "E_PCOF     ",
+          "type": "N",
+          "length": 6,
+          "decimals": 2
+        },
+        {
+          "name": "E_BONU     ",
+          "type": "N",
+          "length": 6,
+          "decimals": 2
+        },
+        {
+          "name": "E_JURB     ",
+          "type": "N",
+          "length": 6,
+          "decimals": 2
+        },
+        {
+          "name": "E_JURC     ",
+          "type": "N",
+          "length": 6,
+          "decimals": 2
+        },
+        {
+          "name": "E_SELE     ",
+          "type": "D",
+          "length": 8,
+          "decimals": 32
+        },
+        {
+          "name": "E_NPED     ",
+          "type": "N",
+          "length": 10,
+          "decimals": 32
+        },
+        {
+          "name": "E_TRAP     ",
+          "type": "C",
+          "length": 10,
+          "decimals": 32
+        },
+        {
+          "name": "E_BANP     ",
+          "type": "C",
+          "length": 3,
+          "decimals": 32
+        },
+        {
+          "name": "E_PEDI     ",
+          "type": "N",
+          "length": 10,
+          "decimals": 32
+        },
+        {
+          "name": "E_PPED     ",
+          "type": "N",
+          "length": 10,
+          "decimals": 32
+        },
+        {
+          "name": "E_PPAG     ",
+          "type": "N",
+          "length": 10,
+          "decimals": 32
+        },
+        {
+          "name": "E_NROM     ",
+          "type": "N",
+          "length": 10,
+          "decimals": 32
+        },
+        {
+          "name": "E_NDIA     ",
+          "type": "N",
+          "length": 4,
+          "decimals": 32
+        },
+        {
+          "name": "E_DBRO     ",
+          "type": "D",
+          "length": 8,
+          "decimals": 32
+        },
+        {
+          "name": "E_AEST     ",
+          "type": "D",
+          "length": 8,
+          "decimals": 32
+        },
+        {
+          "name": "E_COMP     ",
+          "type": "C",
+          "length": 50,
+          "decimals": 32
+        },
+        {
+          "name": "E_SEQU     ",
+          "type": "C",
+          "length": 136,
+          "decimals": 32
+        },
+        {
+          "name": "E_MFIS     ",
+          "type": "N",
+          "length": 1,
+          "decimals": 32
+        },
+        {
+          "name": "E_FAP1     ",
+          "type": "N",
+          "length": 12,
+          "decimals": 3
+        },
+        {
+          "name": "E_FAP2     ",
+          "type": "N",
+          "length": 12,
+          "decimals": 3
+        },
+        {
+          "name": "E_FAP3     ",
+          "type": "N",
+          "length": 12,
+          "decimals": 3
+        },
+        {
+          "name": "E_FAP4     ",
+          "type": "N",
+          "length": 12,
+          "decimals": 3
+        },
+        {
+          "name": "E_FAP5     ",
+          "type": "N",
+          "length": 12,
+          "decimals": 3
+        },
+        {
+          "name": "E_VCDI     ",
+          "type": "D",
+          "length": 8,
+          "decimals": 32
+        },
+        {
+          "name": "E_DCOM     ",
+          "type": "N",
+          "length": 6,
+          "decimals": 2
+        },
+        {
+          "name": "E_SEQC     ",
+          "type": "C",
+          "length": 5,
+          "decimals": 32
+        },
+        {
+          "name": "E_SEQR     ",
+          "type": "C",
+          "length": 5,
+          "decimals": 32
+        },
+        {
+          "name": "E_SEQP     ",
+          "type": "C",
+          "length": 5,
+          "decimals": 32
+        },
+        {
+          "name": "E_SEQF     ",
+          "type": "C",
+          "length": 5,
+          "decimals": 32
+        },
+        {
+          "name": "E_SEQT     ",
+          "type": "C",
+          "length": 5,
+          "decimals": 32
+        },
+        {
+          "name": "E_IINI     ",
+          "type": "D",
+          "length": 8,
+          "decimals": 32
+        },
+        {
+          "name": "E_ICON     ",
+          "type": "C",
+          "length": 20,
+          "decimals": 32
+        },
+        {
+          "name": "E_IFON     ",
+          "type": "C",
+          "length": 15,
+          "decimals": 32
+        },
+        {
+          "name": "E_ITAB     ",
+          "type": "N",
+          "length": 2,
+          "decimals": 32
+        },
+        {
+          "name": "E_ILIB     ",
+          "type": "N",
+          "length": 1,
+          "decimals": 32
+        },
+        {
+          "name": "E_ILIM     ",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "E_IOBS     ",
+          "type": "C",
+          "length": 50,
+          "decimals": 32
+        },
+        {
+          "name": "E_ITER     ",
+          "type": "C",
+          "length": 150,
+          "decimals": 32
+        },
+        {
+          "name": "E_SROM     ",
+          "type": "C",
+          "length": 30,
+          "decimals": 32
+        },
+        {
+          "name": "E_DTAB     ",
+          "type": "N",
+          "length": 6,
+          "decimals": 2
+        },
+        {
+          "name": "E_ADIC     ",
+          "type": "C",
+          "length": 236,
+          "decimals": 32
+        },
+        {
+          "name": "E_PET1     ",
+          "type": "N",
+          "length": 1,
+          "decimals": 32
+        },
+        {
+          "name": "E_PET2     ",
+          "type": "N",
+          "length": 3,
+          "decimals": 32
+        },
+        {
+          "name": "E_MET1     ",
+          "type": "D",
+          "length": 8,
+          "decimals": 32
+        },
+        {
+          "name": "E_MET2     ",
+          "type": "D",
+          "length": 8,
+          "decimals": 32
+        },
+        {
+          "name": "E_MET3     ",
+          "type": "C",
+          "length": 15,
+          "decimals": 32
+        },
+        {
+          "name": "E_CASD     ",
+          "type": "N",
+          "length": 1,
+          "decimals": 32
+        },
+        {
+          "name": "E_MPAD     ",
+          "type": "C",
+          "length": 40,
+          "decimals": 32
+        },
+        {
+          "name": "E_CSER     ",
+          "type": "C",
+          "length": 60,
+          "decimals": 32
+        },
+        {
+          "name": "E_CDES     ",
+          "type": "C",
+          "length": 60,
+          "decimals": 32
+        },
+        {
+          "name": "E_CPOR     ",
+          "type": "N",
+          "length": 5,
+          "decimals": 32
+        },
+        {
+          "name": "E_CSSL     ",
+          "type": "N",
+          "length": 1,
+          "decimals": 32
+        },
+        {
+          "name": "E_CAUT     ",
+          "type": "N",
+          "length": 1,
+          "decimals": 32
+        },
+        {
+          "name": "E_DRAP     ",
+          "type": "N",
+          "length": 1,
+          "decimals": 32
+        },
+        {
+          "name": "E_SSEP     ",
+          "type": "N",
+          "length": 1,
+          "decimals": 32
+        },
+        {
+          "name": "E_AAVP     ",
+          "type": "N",
+          "length": 5,
+          "decimals": 32
+        },
+        {
+          "name": "E_NACE     ",
+          "type": "C",
+          "length": 5,
+          "decimals": 32
+        },
+        {
+          "name": "E_TEST     ",
+          "type": "C",
+          "length": 5,
+          "decimals": 32
+        },
+        {
+          "name": "E_PCOU     ",
+          "type": "C",
+          "length": 2,
+          "decimals": 32
+        },
+        {
+          "name": "E_PIOU     ",
+          "type": "C",
+          "length": 2,
+          "decimals": 32
+        },
+        {
+          "name": "E_PPOU     ",
+          "type": "N",
+          "length": 6,
+          "decimals": 2
+        },
+        {
+          "name": "E_CCOU     ",
+          "type": "C",
+          "length": 2,
+          "decimals": 32
+        },
+        {
+          "name": "E_CIOU     ",
+          "type": "C",
+          "length": 2,
+          "decimals": 32
+        },
+        {
+          "name": "E_CPOU     ",
+          "type": "N",
+          "length": 6,
+          "decimals": 2
+        },
+        {
+          "name": "E_DLVE     ",
+          "type": "N",
+          "length": 2,
+          "decimals": 32
+        },
+        {
+          "name": "E_LATI     ",
+          "type": "N",
+          "length": 12,
+          "decimals": 7
+        },
+        {
+          "name": "E_LONG     ",
+          "type": "N",
+          "length": 12,
+          "decimals": 7
+        },
+        {
+          "name": "E_BLOC     ",
+          "type": "N",
+          "length": 1,
+          "decimals": 32
+        },
+        {
+          "name": "E_SSIM     ",
+          "type": "N",
+          "length": 1,
+          "decimals": 32
+        }
+      ]
+    },
+    "SCD_ESTA.DBF": {
+      "records": 28,
+      "fields": [
+        {
+          "name": "UF_SIGL",
+          "type": "C",
+          "length": 2,
+          "decimals": 0
+        },
+        {
+          "name": "UF_NOME",
+          "type": "C",
+          "length": 30,
+          "decimals": 0
+        },
+        {
+          "name": "UF_IVAS",
+          "type": "N",
+          "length": 7,
+          "decimals": 2
+        },
+        {
+          "name": "UF_AIST",
+          "type": "N",
+          "length": 7,
+          "decimals": 2
+        },
+        {
+          "name": "UF_AFEC",
+          "type": "N",
+          "length": 7,
+          "decimals": 2
+        },
+        {
+          "name": "UF_ALID",
+          "type": "N",
+          "length": 7,
+          "decimals": 2
+        },
+        {
+          "name": "UF_ALIN",
+          "type": "N",
+          "length": 7,
+          "decimals": 2
+        },
+        {
+          "name": "UF_ALIP",
+          "type": "N",
+          "length": 7,
+          "decimals": 2
+        }
+      ]
+    },
+    "SCD_FABR.DBF": {
+      "records": 1,
+      "fields": [
+        {
+          "name": "G_EMIT",
+          "type": "C",
+          "length": 14,
+          "decimals": 0
+        },
+        {
+          "name": "G_CODI",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "G_NOME",
+          "type": "C",
+          "length": 30,
+          "decimals": 0
+        },
+        {
+          "name": "G_METQ",
+          "type": "N",
+          "length": 12,
+          "decimals": 0
+        },
+        {
+          "name": "G_METV",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "G_METP",
+          "type": "N",
+          "length": 12,
+          "decimals": 3
+        },
+        {
+          "name": "G_REAQ",
+          "type": "N",
+          "length": 12,
+          "decimals": 0
+        },
+        {
+          "name": "G_REAV",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "G_REAP",
+          "type": "N",
+          "length": 12,
+          "decimals": 3
+        },
+        {
+          "name": "G_PREM",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "G_SELE",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "G_XMAR",
+          "type": "N",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "G_DAT1",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "G_DAT2",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "G_DMAX",
+          "type": "N",
+          "length": 6,
+          "decimals": 2
+        },
+        {
+          "name": "G_LIBI",
+          "type": "N",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "G_CNPJ",
+          "type": "C",
+          "length": 14,
+          "decimals": 0
+        },
+        {
+          "name": "G_RSOC",
+          "type": "C",
+          "length": 50,
+          "decimals": 0
+        },
+        {
+          "name": "G_FONE",
+          "type": "C",
+          "length": 30,
+          "decimals": 0
+        }
+      ]
+    },
+    "SCD_FAMI.DBF": {
+      "records": 1,
+      "fields": [
+        {
+          "name": "FM_EMIT",
+          "type": "C",
+          "length": 14,
+          "decimals": 0
+        },
+        {
+          "name": "FM_CODI",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "FM_NOME",
+          "type": "C",
+          "length": 30,
+          "decimals": 0
+        },
+        {
+          "name": "FM_METQ",
+          "type": "N",
+          "length": 12,
+          "decimals": 0
+        },
+        {
+          "name": "FM_METV",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "FM_METP",
+          "type": "N",
+          "length": 12,
+          "decimals": 3
+        },
+        {
+          "name": "FM_REAQ",
+          "type": "N",
+          "length": 12,
+          "decimals": 0
+        },
+        {
+          "name": "FM_REAV",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "FM_REAP",
+          "type": "N",
+          "length": 12,
+          "decimals": 3
+        },
+        {
+          "name": "FM_PREM",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "FM_XMAR",
+          "type": "N",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "FM_SELE",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        }
+      ]
+    },
+    "SCD_FORN.DBF": {
+      "records": 1,
+      "fields": [
+        {
+          "name": "F_EMIT",
+          "type": "C",
+          "length": 14,
+          "decimals": 0
+        },
+        {
+          "name": "F_CODI",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "F_DEST",
+          "type": "C",
+          "length": 14,
+          "decimals": 0
+        },
+        {
+          "name": "F_NOME",
+          "type": "C",
+          "length": 50,
+          "decimals": 0
+        },
+        {
+          "name": "F_ENDE",
+          "type": "C",
+          "length": 50,
+          "decimals": 0
+        },
+        {
+          "name": "F_BAIR",
+          "type": "C",
+          "length": 25,
+          "decimals": 0
+        },
+        {
+          "name": "F_CMUN",
+          "type": "C",
+          "length": 7,
+          "decimals": 0
+        },
+        {
+          "name": "F_XMUN",
+          "type": "C",
+          "length": 30,
+          "decimals": 0
+        },
+        {
+          "name": "F_ESTA",
+          "type": "C",
+          "length": 2,
+          "decimals": 0
+        },
+        {
+          "name": "F_CEPN",
+          "type": "C",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "F_FONE",
+          "type": "C",
+          "length": 15,
+          "decimals": 0
+        },
+        {
+          "name": "F_OUTF",
+          "type": "C",
+          "length": 30,
+          "decimals": 0
+        },
+        {
+          "name": "F_IEST",
+          "type": "C",
+          "length": 20,
+          "decimals": 0
+        },
+        {
+          "name": "F_CONT",
+          "type": "C",
+          "length": 25,
+          "decimals": 0
+        },
+        {
+          "name": "F_FANT",
+          "type": "C",
+          "length": 50,
+          "decimals": 0
+        },
+        {
+          "name": "F_FRET",
+          "type": "C",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "F_TRAN",
+          "type": "C",
+          "length": 50,
+          "decimals": 0
+        },
+        {
+          "name": "F_PRAZ",
+          "type": "C",
+          "length": 50,
+          "decimals": 0
+        },
+        {
+          "name": "F_EMAI",
+          "type": "C",
+          "length": 50,
+          "decimals": 0
+        },
+        {
+          "name": "F_OBSE",
+          "type": "C",
+          "length": 50,
+          "decimals": 0
+        },
+        {
+          "name": "F_CADT",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "F_SELE",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "F_LICE",
+          "type": "C",
+          "length": 15,
+          "decimals": 0
+        },
+        {
+          "name": "F_VALI",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        }
+      ]
+    },
+    "SCD_HIST.DBF": {
+      "records": 7,
+      "fields": [
+        {
+          "name": "H_EMIT",
+          "type": "C",
+          "length": 14,
+          "decimals": 0
+        },
+        {
+          "name": "H_DATA",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "H_HORA",
+          "type": "C",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "H_TIPO",
+          "type": "N",
+          "length": 2,
+          "decimals": 0
+        },
+        {
+          "name": "H_CODI",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "H_CLIE",
+          "type": "C",
+          "length": 14,
+          "decimals": 0
+        },
+        {
+          "name": "H_OCOR",
+          "type": "C",
+          "length": 100,
+          "decimals": 0
+        },
+        {
+          "name": "H_SENH",
+          "type": "C",
+          "length": 50,
+          "decimals": 0
+        },
+        {
+          "name": "H_MOTI",
+          "type": "C",
+          "length": 50,
+          "decimals": 0
+        },
+        {
+          "name": "H_CONT",
+          "type": "N",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "H_SELE",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        }
+      ]
+    },
+    "SCD_HVIS.DBF": {
+      "records": 0,
+      "fields": [
+        {
+          "name": "HV_EMIT",
+          "type": "C",
+          "length": 14,
+          "decimals": 0
+        },
+        {
+          "name": "HV_CCLI",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "HV_CREP",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "HV_DATV",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "HV_HORV",
+          "type": "C",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "HV_DATR",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "HV_HORR",
+          "type": "C",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "HV_SITU",
+          "type": "C",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "HV_CMOT",
+          "type": "C",
+          "length": 3,
+          "decimals": 0
+        },
+        {
+          "name": "HV_MOTI",
+          "type": "C",
+          "length": 30,
+          "decimals": 0
+        },
+        {
+          "name": "HV_OBSE",
+          "type": "C",
+          "length": 120,
+          "decimals": 0
+        }
+      ]
+    },
+    "SCD_IBGE.DBF": {
+      "records": 9825,
+      "fields": [
+        {
+          "name": "NFE_STAT",
+          "type": "C",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "NFE_ESTA",
+          "type": "C",
+          "length": 2,
+          "decimals": 0
+        },
+        {
+          "name": "NFE_CIDA",
+          "type": "C",
+          "length": 30,
+          "decimals": 0
+        },
+        {
+          "name": "NFE_CODI",
+          "type": "C",
+          "length": 7,
+          "decimals": 0
+        }
+      ]
+    },
+    "SCD_ICOM.DBF": {
+      "records": 0,
+      "fields": [
+        {
+          "name": "PRC_EMIT",
+          "type": "C",
+          "length": 14,
+          "decimals": 0
+        },
+        {
+          "name": "PRC_SIST",
+          "type": "C",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "PRC_NUME",
+          "type": "N",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "PRC_DATA",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "PRC_ENTR",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "PRC_CLIE",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "PRC_CPRO",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "PRC_TIPO",
+          "type": "N",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "PRC_QDEN",
+          "type": "N",
+          "length": 12,
+          "decimals": 4
+        },
+        {
+          "name": "PRC_RECE",
+          "type": "N",
+          "length": 12,
+          "decimals": 4
+        },
+        {
+          "name": "PRC_VALO",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "PRC_PDES",
+          "type": "N",
+          "length": 8,
+          "decimals": 4
+        },
+        {
+          "name": "PRC_DESC",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "PRC_PIMP",
+          "type": "N",
+          "length": 8,
+          "decimals": 4
+        },
+        {
+          "name": "PRC_IMPO",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "PRC_REFE",
+          "type": "C",
+          "length": 40,
+          "decimals": 0
+        },
+        {
+          "name": "PRC_MARC",
+          "type": "C",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "PRC_REPR",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "PRC_TRAN",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "PRC_DMOV",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "PRC_HMOV",
+          "type": "C",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "PRC_UMOV",
+          "type": "C",
+          "length": 20,
+          "decimals": 0
+        },
+        {
+          "name": "PRC_PROT",
+          "type": "C",
+          "length": 18,
+          "decimals": 0
+        },
+        {
+          "name": "PRC_ITAB",
+          "type": "C",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "PRC_LIST",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        }
+      ]
+    },
+    "SCD_ITEM.DBF": {
+      "records": 19,
+      "fields": [
+        {
+          "name": "PRO_EMIT",
+          "type": "C",
+          "length": 14,
+          "decimals": 0
+        },
+        {
+          "name": "PRO_SIST",
+          "type": "C",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "PRO_NUME",
+          "type": "N",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "PRO_DATA",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "PRO_CLIE",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "PRO_REPR",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "PRO_CPRO",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "PRO_TIPO",
+          "type": "N",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "PRO_FCIP",
+          "type": "N",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "PRO_QDEN",
+          "type": "N",
+          "length": 12,
+          "decimals": 4
+        },
+        {
+          "name": "PRO_BAIX",
+          "type": "N",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "PRO_RECE",
+          "type": "N",
+          "length": 12,
+          "decimals": 4
+        },
+        {
+          "name": "PRO_BRUT",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "PRO_DES1",
+          "type": "N",
+          "length": 8,
+          "decimals": 4
+        },
+        {
+          "name": "PRO_DES2",
+          "type": "N",
+          "length": 8,
+          "decimals": 4
+        },
+        {
+          "name": "PRO_VALO",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "PRO_CUST",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "PRO_FRET",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "PRO_DESC",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "PRO_ACRE",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "PRO_LIST",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "PRO_COMI",
+          "type": "N",
+          "length": 8,
+          "decimals": 4
+        },
+        {
+          "name": "PRO_REFE",
+          "type": "C",
+          "length": 40,
+          "decimals": 0
+        },
+        {
+          "name": "PRO_FABR",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "PRO_VALI",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "PRO_LOTE",
+          "type": "C",
+          "length": 40,
+          "decimals": 0
+        },
+        {
+          "name": "PRO_DMOV",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "PRO_HMOV",
+          "type": "C",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "PRO_UMOV",
+          "type": "C",
+          "length": 20,
+          "decimals": 0
+        },
+        {
+          "name": "PRO_MARC",
+          "type": "C",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "PRO_TABE",
+          "type": "C",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "PRO_VICM",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "PRO_VPIS",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "PRO_VCOF",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "PRO_VSTR",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "PRO_VIPI",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "PRO_GERA",
+          "type": "N",
+          "length": 12,
+          "decimals": 4
+        },
+        {
+          "name": "PRO_UTIL",
+          "type": "N",
+          "length": 12,
+          "decimals": 4
+        },
+        {
+          "name": "PRO_CBAI",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "PRO_CFOP",
+          "type": "C",
+          "length": 4,
+          "decimals": 0
+        },
+        {
+          "name": "PRO_ITAB",
+          "type": "C",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "PRO_CHEK",
+          "type": "N",
+          "length": 1,
+          "decimals": 0
+        }
+      ]
+    },
+    "SCD_LOTE.DBF": {
+      "records": 0,
+      "fields": [
+        {
+          "name": "L_EMIT",
+          "type": "C",
+          "length": 14,
+          "decimals": 0
+        },
+        {
+          "name": "L_DEST",
+          "type": "C",
+          "length": 14,
+          "decimals": 0
+        },
+        {
+          "name": "L_NUME",
+          "type": "N",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "L_EMIS",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "L_CODI",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "L_PROD",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "L_NOME",
+          "type": "C",
+          "length": 40,
+          "decimals": 0
+        },
+        {
+          "name": "L_STAT",
+          "type": "C",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "L_LOTE",
+          "type": "C",
+          "length": 15,
+          "decimals": 0
+        },
+        {
+          "name": "L_QDEN",
+          "type": "N",
+          "length": 12,
+          "decimals": 3
+        },
+        {
+          "name": "L_QCON",
+          "type": "N",
+          "length": 12,
+          "decimals": 3
+        },
+        {
+          "name": "L_FABR",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "L_VALI",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "L_VPMC",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "L_SELE",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "L_QVEN",
+          "type": "N",
+          "length": 12,
+          "decimals": 3
+        },
+        {
+          "name": "L_DMOV",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "L_HMOV",
+          "type": "C",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "L_UMOV",
+          "type": "C",
+          "length": 20,
+          "decimals": 0
+        }
+      ]
+    },
+    "SCD_MCAI.DBF": {
+      "records": 1,
+      "fields": [
+        {
+          "name": "M_EMIT",
+          "type": "C",
+          "length": 14,
+          "decimals": 0
+        },
+        {
+          "name": "M_CODI",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "M_DATA",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "M_HORA",
+          "type": "C",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "M_RECI",
+          "type": "N",
+          "length": 6,
+          "decimals": 0
+        },
+        {
+          "name": "M_DECR",
+          "type": "N",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "M_DESP",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "M_NDES",
+          "type": "C",
+          "length": 30,
+          "decimals": 0
+        },
+        {
+          "name": "M_STAT",
+          "type": "N",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "M_TIPO",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "M_DEST",
+          "type": "C",
+          "length": 50,
+          "decimals": 0
+        },
+        {
+          "name": "M_REFE",
+          "type": "C",
+          "length": 25,
+          "decimals": 0
+        },
+        {
+          "name": "M_HIST",
+          "type": "C",
+          "length": 50,
+          "decimals": 0
+        },
+        {
+          "name": "M_VALO",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "M_RESU",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "M_USUA",
+          "type": "C",
+          "length": 20,
+          "decimals": 0
+        }
+      ]
+    },
+    "SCD_META.DBF": {
+      "records": 0,
+      "fields": [
+        {
+          "name": "M_EMIT",
+          "type": "C",
+          "length": 14,
+          "decimals": 0
+        },
+        {
+          "name": "M_REPR",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "M_FABR",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "M_PROD",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "M_STAT",
+          "type": "N",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "M_NOME",
+          "type": "C",
+          "length": 40,
+          "decimals": 0
+        },
+        {
+          "name": "M_METQ",
+          "type": "N",
+          "length": 12,
+          "decimals": 0
+        },
+        {
+          "name": "M_METV",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "M_METP",
+          "type": "N",
+          "length": 12,
+          "decimals": 3
+        },
+        {
+          "name": "M_PREM",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "M_REAQ",
+          "type": "N",
+          "length": 12,
+          "decimals": 0
+        },
+        {
+          "name": "M_REAV",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "M_REAP",
+          "type": "N",
+          "length": 12,
+          "decimals": 3
+        },
+        {
+          "name": "M_SELE",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        }
+      ]
+    },
+    "SCD_MLOT.DBF": {
+      "records": 0,
+      "fields": [
+        {
+          "name": "LOT_EMIT",
+          "type": "C",
+          "length": 14,
+          "decimals": 0
+        },
+        {
+          "name": "LOT_NUME",
+          "type": "N",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "LOT_EMIS",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "LOT_CODI",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "LOT_PROD",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "LOT_NNOT",
+          "type": "N",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "LOT_DNOT",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "LOT_FNOT",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "LOT_LOTE",
+          "type": "C",
+          "length": 15,
+          "decimals": 0
+        },
+        {
+          "name": "LOT_QDEN",
+          "type": "N",
+          "length": 12,
+          "decimals": 3
+        },
+        {
+          "name": "LOT_RECE",
+          "type": "N",
+          "length": 12,
+          "decimals": 3
+        },
+        {
+          "name": "LOT_FABR",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "LOT_VALI",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "LOT_PROC",
+          "type": "N",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "LOT_DMOV",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "LOT_HMOV",
+          "type": "C",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "LOT_UMOV",
+          "type": "C",
+          "length": 20,
+          "decimals": 0
+        },
+        {
+          "name": "LOT_BAIX",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        }
+      ]
+    },
+    "SCD_MVIS.DBF": {
+      "records": 1,
+      "fields": [
+        {
+          "name": "MV_EMIT",
+          "type": "C",
+          "length": 14,
+          "decimals": 0
+        },
+        {
+          "name": "MV_CODI",
+          "type": "C",
+          "length": 3,
+          "decimals": 0
+        },
+        {
+          "name": "MV_MOTI",
+          "type": "C",
+          "length": 30,
+          "decimals": 0
+        },
+        {
+          "name": "MV_RMOT",
+          "type": "N",
+          "length": 1,
+          "decimals": 0
+        }
+      ]
+    },
+    "SCD_PCOM.DBF": {
+      "records": 0,
+      "fields": [
+        {
+          "name": "PEC_EMIT",
+          "type": "C",
+          "length": 14,
+          "decimals": 0
+        },
+        {
+          "name": "PEC_SIST",
+          "type": "C",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "PEC_NUME",
+          "type": "N",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "PEC_CLIE",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "PEC_DATA",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "PEC_HORA",
+          "type": "C",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "PEC_ENTR",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "PEC_OBSE",
+          "type": "C",
+          "length": 120,
+          "decimals": 0
+        },
+        {
+          "name": "PEC_PORT",
+          "type": "C",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "PEC_PRAZ",
+          "type": "C",
+          "length": 50,
+          "decimals": 0
+        },
+        {
+          "name": "PEC_CONT",
+          "type": "C",
+          "length": 20,
+          "decimals": 0
+        },
+        {
+          "name": "PEC_TELN",
+          "type": "C",
+          "length": 11,
+          "decimals": 0
+        },
+        {
+          "name": "PEC_FRET",
+          "type": "N",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "PEC_TOTA",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "PEC_PDES",
+          "type": "N",
+          "length": 8,
+          "decimals": 4
+        },
+        {
+          "name": "PEC_VDES",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "PEC_PIMP",
+          "type": "N",
+          "length": 8,
+          "decimals": 4
+        },
+        {
+          "name": "PEC_IMPO",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "PEC_VALO",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "PEC_VTOT",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "PEC_PESO",
+          "type": "N",
+          "length": 12,
+          "decimals": 3
+        },
+        {
+          "name": "PEC_PESB",
+          "type": "N",
+          "length": 12,
+          "decimals": 3
+        },
+        {
+          "name": "PEC_USUA",
+          "type": "C",
+          "length": 20,
+          "decimals": 0
+        },
+        {
+          "name": "PEC_UDAT",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "PEC_UHOR",
+          "type": "C",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "PEC_UOPE",
+          "type": "C",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "PEC_REPR",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "PEC_TRAN",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "PEC_PROT",
+          "type": "C",
+          "length": 18,
+          "decimals": 0
+        },
+        {
+          "name": "PEC_EMAI",
+          "type": "C",
+          "length": 50,
+          "decimals": 0
+        }
+      ]
+    },
+    "SCD_PEDI.DBF": {
+      "records": 3,
+      "fields": [
+        {
+          "name": "PED_EMIT",
+          "type": "C",
+          "length": 14,
+          "decimals": 0
+        },
+        {
+          "name": "PED_SIST",
+          "type": "C",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "PED_NUME",
+          "type": "N",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "PED_PEDI",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "PED_PEDC",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "PED_SEQN",
+          "type": "C",
+          "length": 5,
+          "decimals": 0
+        },
+        {
+          "name": "PED_CLIE",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "PED_REPR",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "PED_TRAN",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "PED_DATA",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "PED_HORA",
+          "type": "C",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "PED_NNOT",
+          "type": "N",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "PED_DNOT",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "PED_HNOT",
+          "type": "C",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "PED_PROG",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "PED_OUTR",
+          "type": "C",
+          "length": 20,
+          "decimals": 0
+        },
+        {
+          "name": "PED_NATU",
+          "type": "C",
+          "length": 4,
+          "decimals": 0
+        },
+        {
+          "name": "PED_NOPE",
+          "type": "C",
+          "length": 20,
+          "decimals": 0
+        },
+        {
+          "name": "PED_NCHA",
+          "type": "C",
+          "length": 50,
+          "decimals": 0
+        },
+        {
+          "name": "PED_MODE",
+          "type": "C",
+          "length": 4,
+          "decimals": 0
+        },
+        {
+          "name": "PED_SERI",
+          "type": "C",
+          "length": 4,
+          "decimals": 0
+        },
+        {
+          "name": "PED_TABE",
+          "type": "C",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "PED_OBSE",
+          "type": "C",
+          "length": 120,
+          "decimals": 0
+        },
+        {
+          "name": "PED_INFO",
+          "type": "C",
+          "length": 120,
+          "decimals": 0
+        },
+        {
+          "name": "PED_DIVI",
+          "type": "N",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "PED_FRET",
+          "type": "N",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "PED_ORIG",
+          "type": "N",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "PED_ESTO",
+          "type": "N",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "PED_PLAC",
+          "type": "C",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "PED_UFPL",
+          "type": "C",
+          "length": 2,
+          "decimals": 0
+        },
+        {
+          "name": "PED_EMIX",
+          "type": "C",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "PED_ROMA",
+          "type": "N",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "PED_PORT",
+          "type": "C",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "PED_PRAZ",
+          "type": "C",
+          "length": 50,
+          "decimals": 0
+        },
+        {
+          "name": "PED_TOTA",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "PED_DES1",
+          "type": "N",
+          "length": 8,
+          "decimals": 4
+        },
+        {
+          "name": "PED_DES2",
+          "type": "N",
+          "length": 8,
+          "decimals": 4
+        },
+        {
+          "name": "PED_PDES",
+          "type": "N",
+          "length": 8,
+          "decimals": 4
+        },
+        {
+          "name": "PED_VDES",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "PED_VALO",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "PED_PDEF",
+          "type": "N",
+          "length": 8,
+          "decimals": 4
+        },
+        {
+          "name": "PED_VDEF",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "PED_PDFI",
+          "type": "N",
+          "length": 8,
+          "decimals": 4
+        },
+        {
+          "name": "PED_VDFI",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "PED_PDTA",
+          "type": "N",
+          "length": 8,
+          "decimals": 4
+        },
+        {
+          "name": "PED_VDTA",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "PED_VTOT",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "PED_LIST",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "PED_CUST",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "PED_VFRE",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "PED_VIPI",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "PED_BSTR",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "PED_VSTR",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "PED_ACRE",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "PED_PESO",
+          "type": "N",
+          "length": 12,
+          "decimals": 3
+        },
+        {
+          "name": "PED_PESB",
+          "type": "N",
+          "length": 12,
+          "decimals": 3
+        },
+        {
+          "name": "PED_VOLU",
+          "type": "N",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "PED_ESPE",
+          "type": "C",
+          "length": 20,
+          "decimals": 0
+        },
+        {
+          "name": "PED_DLIB",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "PED_HLIB",
+          "type": "C",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "PED_DSAI",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "PED_HSAI",
+          "type": "C",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "PED_DENT",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "PED_HENT",
+          "type": "C",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "PED_COMI",
+          "type": "N",
+          "length": 8,
+          "decimals": 4
+        },
+        {
+          "name": "PED_MIXX",
+          "type": "N",
+          "length": 8,
+          "decimals": 4
+        },
+        {
+          "name": "PED_FCOM",
+          "type": "N",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "PED_FIMP",
+          "type": "N",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "PED_FPAR",
+          "type": "N",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "PED_DEVO",
+          "type": "N",
+          "length": 8,
+          "decimals": 4
+        },
+        {
+          "name": "PED_REEM",
+          "type": "C",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "PED_USUA",
+          "type": "C",
+          "length": 20,
+          "decimals": 0
+        },
+        {
+          "name": "PED_UDAT",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "PED_UHOR",
+          "type": "C",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "PED_UOPE",
+          "type": "C",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "PED_MADI",
+          "type": "N",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "PED_APLI",
+          "type": "C",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "PED_AMOS",
+          "type": "C",
+          "length": 120,
+          "decimals": 0
+        },
+        {
+          "name": "PED_ACOM",
+          "type": "C",
+          "length": 20,
+          "decimals": 0
+        },
+        {
+          "name": "PED_MPAD",
+          "type": "C",
+          "length": 40,
+          "decimals": 0
+        },
+        {
+          "name": "PED_REMS",
+          "type": "C",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "PED_REMP",
+          "type": "N",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "PED_EMIE",
+          "type": "C",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "PED_PROV",
+          "type": "C",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "PED_SEPA",
+          "type": "C",
+          "length": 20,
+          "decimals": 0
+        },
+        {
+          "name": "PED_CONF",
+          "type": "C",
+          "length": 20,
+          "decimals": 0
+        },
+        {
+          "name": "PED_DATC",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "PED_HORC",
+          "type": "C",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "PED_STAT",
+          "type": "C",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "PED_GERA",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "PED_UTIL",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "PED_FINA",
+          "type": "N",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "PED_TIDO",
+          "type": "N",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "PED_NFRE",
+          "type": "C",
+          "length": 44,
+          "decimals": 0
+        }
+      ]
+    },
+    "SCD_ROMA.DBF": {
+      "records": 0,
+      "fields": [
+        {
+          "name": "ROM_EMIT",
+          "type": "C",
+          "length": 14,
+          "decimals": 0
+        },
+        {
+          "name": "ROM_NUME",
+          "type": "N",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "ROM_QPED",
+          "type": "N",
+          "length": 5,
+          "decimals": 0
+        },
+        {
+          "name": "ROM_DATA",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "ROM_HORA",
+          "type": "C",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "ROM_VALO",
+          "type": "N",
+          "length": 12,
+          "decimals": 2
+        },
+        {
+          "name": "ROM_PESO",
+          "type": "N",
+          "length": 12,
+          "decimals": 3
+        },
+        {
+          "name": "ROM_SITU",
+          "type": "C",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "ROM_TRAN",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "ROM_DEMI",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "ROM_DSAI",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "ROM_ARQB",
+          "type": "C",
+          "length": 50,
+          "decimals": 0
+        },
+        {
+          "name": "ROM_ARQN",
+          "type": "C",
+          "length": 50,
+          "decimals": 0
+        },
+        {
+          "name": "ROM_FECH",
+          "type": "C",
+          "length": 1,
+          "decimals": 0
+        }
+      ]
+    },
+    "SCD_SENH.DBF": {
+      "records": 3,
+      "fields": [
+        {
+          "name": "S_EMIT",
+          "type": "C",
+          "length": 14,
+          "decimals": 0
+        },
+        {
+          "name": "S_USUA",
+          "type": "C",
+          "length": 30,
+          "decimals": 0
+        },
+        {
+          "name": "S_SENH",
+          "type": "C",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "S_NUME",
+          "type": "N",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "S_NOME",
+          "type": "C",
+          "length": 30,
+          "decimals": 0
+        },
+        {
+          "name": "S_OPER",
+          "type": "N",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "S_DIEN",
+          "type": "N",
+          "length": 5,
+          "decimals": 0
+        },
+        {
+          "name": "S_ACES",
+          "type": "C",
+          "length": 150,
+          "decimals": 0
+        },
+        {
+          "name": "S_FOTO",
+          "type": "C",
+          "length": 60,
+          "decimals": 0
+        },
+        {
+          "name": "S_SELE",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        }
+      ]
+    },
+    "SCD_TNCM.DBF": {
+      "records": 11441,
+      "fields": [
+        {
+          "name": "TR_CODI",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "TR_EXTI",
+          "type": "C",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "TR_TABE",
+          "type": "C",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "TR_ALIX",
+          "type": "N",
+          "length": 6,
+          "decimals": 2
+        },
+        {
+          "name": "TR_ALIQ",
+          "type": "N",
+          "length": 6,
+          "decimals": 2
+        },
+        {
+          "name": "TR_ITEM",
+          "type": "C",
+          "length": 5,
+          "decimals": 0
+        },
+        {
+          "name": "TR_CEST",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        }
+      ]
+    },
+    "SCD_TRAN.DBF": {
+      "records": 1,
+      "fields": [
+        {
+          "name": "T_EMIT",
+          "type": "C",
+          "length": 14,
+          "decimals": 0
+        },
+        {
+          "name": "T_CODI",
+          "type": "C",
+          "length": 10,
+          "decimals": 0
+        },
+        {
+          "name": "T_DEST",
+          "type": "C",
+          "length": 14,
+          "decimals": 0
+        },
+        {
+          "name": "T_NOME",
+          "type": "C",
+          "length": 50,
+          "decimals": 0
+        },
+        {
+          "name": "T_ENDE",
+          "type": "C",
+          "length": 50,
+          "decimals": 0
+        },
+        {
+          "name": "T_BAIR",
+          "type": "C",
+          "length": 25,
+          "decimals": 0
+        },
+        {
+          "name": "T_CMUN",
+          "type": "C",
+          "length": 7,
+          "decimals": 0
+        },
+        {
+          "name": "T_XMUN",
+          "type": "C",
+          "length": 30,
+          "decimals": 0
+        },
+        {
+          "name": "T_ESTA",
+          "type": "C",
+          "length": 2,
+          "decimals": 0
+        },
+        {
+          "name": "T_CEPN",
+          "type": "C",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "T_FONE",
+          "type": "C",
+          "length": 15,
+          "decimals": 0
+        },
+        {
+          "name": "T_OUTF",
+          "type": "C",
+          "length": 30,
+          "decimals": 0
+        },
+        {
+          "name": "T_IEST",
+          "type": "C",
+          "length": 20,
+          "decimals": 0
+        },
+        {
+          "name": "T_CONT",
+          "type": "C",
+          "length": 20,
+          "decimals": 0
+        },
+        {
+          "name": "T_EMAI",
+          "type": "C",
+          "length": 50,
+          "decimals": 0
+        },
+        {
+          "name": "T_FANT",
+          "type": "C",
+          "length": 50,
+          "decimals": 0
+        },
+        {
+          "name": "T_TCOM",
+          "type": "N",
+          "length": 1,
+          "decimals": 0
+        },
+        {
+          "name": "T_COMI",
+          "type": "N",
+          "length": 10,
+          "decimals": 2
+        },
+        {
+          "name": "T_CADT",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "T_PLAC",
+          "type": "C",
+          "length": 9,
+          "decimals": 0
+        },
+        {
+          "name": "T_PRAZ",
+          "type": "C",
+          "length": 50,
+          "decimals": 0
+        },
+        {
+          "name": "T_OBSE",
+          "type": "C",
+          "length": 100,
+          "decimals": 0
+        },
+        {
+          "name": "T_SELE",
+          "type": "D",
+          "length": 8,
+          "decimals": 0
+        },
+        {
+          "name": "T_RNTR",
+          "type": "C",
+          "length": 15,
+          "decimals": 0
+        }
+      ]
+    }
+  },
+  "exe_strings_total": 67402,
+  "prg_files": [
+    "ACTIVEX.PRG",
+    "ALERT.PRG",
+    "BAR.PRG",
+    "BITMAP.PRG",
+    "BRUSH.PRG",
+    "BTNBMP.PRG",
+    "BUTTON.PRG",
+    "BUTTONB.PRG",
+    "CHECKBOX.PRG",
+    "CLIPBRD.PRG",
+    "COMBOBOX.PRG",
+    "CONTROL.PRG",
+    "cstr.prg",
+    "CURSOR.PRG",
+    "DBTOOLS.PRG",
+    "DDE.PRG",
+    "DIALOG.PRG",
+    "DLGFIND.PRG",
+    "ERRSYSW.PRG",
+    "FILENAME.PRG",
+    "folder.PRG",
+    "FONT.PRG",
+    "FWERROR.PRG",
+    "GETSYSIN.PRG",
+    "GETTASKS.PRG",
+    "GROUP.PRG",
+    "harbinit.prg",
+    "HARBOUR.PRG",
+    "HELP32.PRG",
+    "ICON.PRG",
+    "INI.PRG",
+    "listbox.PRG",
+    "MDICHILD.PRG",
+    "MDICLIEN.PRG",
+    "MDIFRAME.PRG",
+    "memvarbl.prg",
+    "MENU.PRG",
+    "MENUITEM.PRG",
+    "METER.PRG",
+    "MGET.PRG",
+    "MSGBAR.PRG",
+    "MSGMETER.PRG",
+    "MSGRUN.PRG",
+    "NETAPI32.PRG",
+    "objfunc.prg",
+    "PDMENU.PRG",
+    "PDREPORT.PRG",
+    "PEN.PRG",
+    "PRINTER.PRG",
+    "RADIO.PRG",
+    "RADMENU.PRG",
+    "RANDOM.PRG",
+    "RCOLUMN.PRG",
+    "rddord.prg",
+    "REBAR.PRG",
+    "RECT.PRG",
+    "REG32.PRG",
+    "REPORT.PRG",
+    "RFILE.PRG",
+    "RGROUP.PRG",
+    "RLINE.PRG",
+    "RPREVIEW.PRG",
+    "SAY.PRG",
+    "scd.prg",
+    "scd1ati.prg",
+    "scd1ban.prg",
+    "scd1cat.prg",
+    "scd1che.prg",
+    "scd1cid.prg",
+    "scd1cli.prg",
+    "scd1cpg.prg",
+    "scd1des.prg",
+    "scd1emi.prg",
+    "scd1fab.prg",
+    "scd1fam.prg",
+    "scd1for.prg",
+    "scd1ger.prg",
+    "scd1his.prg",
+    "scd1imp.prg",
+    "scd1nat.prg",
+    "scd1ncm.prg",
+    "scd1pro.prg",
+    "scd1rep.prg",
+    "scd1sen.prg",
+    "scd1tra.prg",
+    "scd1vis.prg",
+    "scd21.prg",
+    "scd22.prg",
+    "scd2ate.prg",
+    "scd2bol.prg",
+    "scd2cli.prg",
+    "scd2com.prg",
+    "scd2con.prg",
+    "scd2dat.prg",
+    "scd2ent.prg",
+    "scd2fin.prg",
+    "scd2nfe.prg",
+    "scd2ped.prg",
+    "scd2sep.prg",
+    "scd2ven.prg",
+    "scd2xml.prg",
+    "scd3cli.prg",
+    "scd3fin.prg",
+    "scd3map.prg",
+    "scd3pro.prg",
+    "scd3rel.prg",
+    "scd3rep.prg",
+    "scd8.prg",
+    "scd9.prg",
+    "scd9Sys.prg",
+    "SCRLLBAR.PRG",
+    "SHELLAPI.PRG",
+    "source\\\\rtl\\\\win32ole.prg",
+    "STATUSBA.PRG",
+    "TACCTBL.PRG",
+    "tclass.prg",
+    "TCLIPGET.PRG",
+    "terror.prg",
+    "TFile.PRG",
+    "TGET.PRG",
+    "tget.prg",
+    "tgetint.prg",
+    "TIMAGLST.PRG",
+    "TIMER.PRG",
+    "TMETAFIL.PRG",
+    "TMSGITEM.PRG",
+    "tobject.prg",
+    "TOOLBAR.PRG",
+    "TProgres.PRG",
+    "traceprg.prg",
+    "TStruct.PRG",
+    "TTxtFile.PRG",
+    "VALBLANK.PRG",
+    "WBROWSE.PRG",
+    "win32ole.prg",
+    "WINDOW.PRG",
+    "WQOUT.PRG",
+    "XPAD.PRG"
+  ],
+  "menu_items": [
+    "Ajuste no Estoque",
+    "Alterar dados do Emitente",
+    "Alterar Email deste Cliente",
+    "Apagar Pedido",
+    "Arquivo NFe",
+    "Atendimento ao Cliente",
+    "Atividades de Clientes",
+    "Bloquear Cliente",
+    "Bloquear Pedido",
+    "Boletos",
+    "Boletos Geral",
+    "Cadastro",
+    "Cadastros",
+    "Calcular Metas",
+    "Categorias de Produtos",
+    "Clientes",
+    "Clientes Chrome",
+    "Clientes Internet",
+    "Clientes Liberados",
+    "Clientes Novos",
+    "Codigos Fiscais CFOP",
+    "Comissão",
+    "Compra",
+    "Compras",
+    "Consulta por data de Vendas",
+    "Consulta Produtos Inativos",
+    "Controle de Cheque",
+    "Dados Cadastrais",
+    "Desativar Produtos",
+    "Detalhar Compra",
+    "Emitentes",
+    "Enviar cliente Selecionado",
+    "Enviar Email",
+    "Enviar para Todos os Clientes",
+    "Estoque",
+    "Estoque Consolidado",
+    "Estornar Boleto",
+    "Exportar",
+    "Exportar MixPedido",
+    "Exportar Representantes",
+    "Exportar Supervisores",
+    "Fabricantes de Produtos",
+    "Familias de Produtos",
+    "Faturamento - NFe",
+    "Fechamento da Compra",
+    "Fechamento da Devolução",
+    "Fechamento do pedido",
+    "Financeiro",
+    "Fiscal (NFe)",
+    "Fornecedores",
+    "Gerar Pedido",
+    "Gravar cadastro",
+    "Gravar pedido",
+    "Importar",
+    "Importar Arquivos Venix",
+    "Impressão de boleto",
+    "Imprime Romaneio",
+    "Imprimir Pedidos",
+    "Informar Cfop",
+    "Informar Meta",
+    "Informações da Compra",
+    "Informações da Devolução",
+    "Informações do Pedido",
+    "Inicialização dos Estoque",
+    "l?dj,Favor Selecionar ou Cadastrar emitente.!!!",
+    "Liberar Cliente",
+    "Liberar Pedido",
+    "Lotes",
+    "lpdj/Necessario importar arquivos XML do",
+    "Metas e Projeções",
+    "Notas Fiscais",
+    "Pedido",
+    "PEDIDO",
+    "Pedidos",
+    "Pedidos Cancelados",
+    "Pedidos de Compra",
+    "Pedidos de Venda",
+    "Pedidos pendentes",
+    "Pedidos Recebidos (Opção A)",
+    "Pedidos Recebidos (Opção B)",
+    "Pedidos Reservados",
+    "Pedidos Transferidos",
+    "Periodo de Vendas",
+    "Positivação-Representante",
+    "Processar Estoque",
+    "Produtos",
+    "Produtos da Compra",
+    "Produtos da Devolução",
+    "Produtos do Pedido",
+    "Produtos e Etiquetas",
+    "Produtos e Lotes",
+    "Produtos por Representantes",
+    "Produtos Similares",
+    "Relacionar Pedidos",
+    "Relatorio",
+    "Relatorios",
+    "Relatório",
+    "Representantes",
+    "Resumo por Produtos",
+    "Resumo por Representante",
+    "Romaneio",
+    "Romaneio Consolidado",
+    "Selecionar Emitente",
+    "Selecionar Pedido",
+    "Selecionar Representante",
+    "Separação de Pedidos",
+    "Substituir Representantes",
+    "Tabela Ncm Emitente",
+    "Tabela Ncm Geral",
+    "Venda",
+    "Vendas",
+    "Visitas",
+    "Visualizar lotes"
+  ]
+}

@@ -1,0 +1,530 @@
+{
+  "emit_filled_fields": [
+    {
+      "field": "E_EMIT",
+      "sample": "22222222222259"
+    },
+    {
+      "field": "E_NOME",
+      "sample": "DISTRIBUIDOR DE PRODUTOS VETERINARIOS LTDA"
+    },
+    {
+      "field": "E_ENDE",
+      "sample": "RUA JOAQUIM FLORIANO, 419"
+    },
+    {
+      "field": "E_BAIR",
+      "sample": "JD.GUANABARA"
+    },
+    {
+      "field": "E_CMUN",
+      "sample": "3547809"
+    },
+    {
+      "field": "E_XMUN",
+      "sample": "SAO PAULO"
+    },
+    {
+      "field": "E_ESTA",
+      "sample": "SP"
+    },
+    {
+      "field": "E_CEPN",
+      "sample": "04534000"
+    },
+    {
+      "field": "E_FONE",
+      "sample": "1159283155"
+    },
+    {
+      "field": "E_IEST",
+      "sample": "116441191112"
+    },
+    {
+      "field": "E_PAIS",
+      "sample": "BRASIL"
+    },
+    {
+      "field": "E_EMAI",
+      "sample": "alscorp@alscorp.com.br"
+    },
+    {
+      "field": "E_LIBE",
+      "sample": "1"
+    },
+    {
+      "field": "E_DATL",
+      "sample": "2026-06-01"
+    },
+    {
+      "field": "E_NUME",
+      "sample": "09:45:28"
+    },
+    {
+      "field": "E_NUML",
+      "sample": "24253218"
+    },
+    {
+      "field": "E_CRTN",
+      "sample": "3"
+    },
+    {
+      "field": "E_FEMI",
+      "sample": "1"
+    },
+    {
+      "field": "E_USUA",
+      "sample": "petclin"
+    },
+    {
+      "field": "E_REME",
+      "sample": "petclin"
+    },
+    {
+      "field": "E_ASSU",
+      "sample": "Nota Fiscal Eletronica - Empresa Demarc"
+    },
+    {
+      "field": "E_ADEB",
+      "sample": "Lembrete de Pagamento de Fatura"
+    },
+    {
+      "field": "E_NDEE",
+      "sample": "10"
+    },
+    {
+      "field": "E_NQEM",
+      "sample": "1"
+    },
+    {
+      "field": "E_ENBO",
+      "sample": "1"
+    },
+    {
+      "field": "E_SENH",
+      "sample": "ÇÐ"
+    },
+    {
+      "field": "E_SERV",
+      "sample": "1"
+    },
+    {
+      "field": "E_SERI",
+      "sample": "2"
+    },
+    {
+      "field": "E_NUNF",
+      "sample": "1071"
+    },
+    {
+      "field": "E_VERS",
+      "sample": "3.10.37"
+    },
+    {
+      "field": "E_ICMS",
+      "sample": "0.0"
+    },
+    {
+      "field": "E_DESC",
+      "sample": "0.0"
+    },
+    {
+      "field": "E_FAX1",
+      "sample": "1.0"
+    },
+    {
+      "field": "E_FAX2",
+      "sample": "0.0"
+    },
+    {
+      "field": "E_FAX3",
+      "sample": "0.0"
+    },
+    {
+      "field": "E_FAX4",
+      "sample": "0.0"
+    },
+    {
+      "field": "E_FAX5",
+      "sample": "0.0"
+    },
+    {
+      "field": "E_FAD1",
+      "sample": "14.5"
+    },
+    {
+      "field": "E_FAD2",
+      "sample": "0.0"
+    },
+    {
+      "field": "E_FAD3",
+      "sample": "0.0"
+    },
+    {
+      "field": "E_FAD4",
+      "sample": "0.0"
+    },
+    {
+      "field": "E_FAD5",
+      "sample": "0.0"
+    },
+    {
+      "field": "E_TTAB",
+      "sample": "1"
+    },
+    {
+      "field": "E_CART",
+      "sample": "1"
+    },
+    {
+      "field": "E_DEPO",
+      "sample": "1"
+    },
+    {
+      "field": "E_BOLE",
+      "sample": "1"
+    },
+    {
+      "field": "E_CHEQ",
+      "sample": "1"
+    },
+    {
+      "field": "E_DINH",
+      "sample": "1"
+    },
+    {
+      "field": "E_PSEG",
+      "sample": "0"
+    },
+    {
+      "field": "E_MINI",
+      "sample": "250.0"
+    },
+    {
+      "field": "E_DMIN",
+      "sample": "1"
+    },
+    {
+      "field": "E_MENS",
+      "sample": "www.alscorp.com.br"
+    },
+    {
+      "field": "E_REMS",
+      "sample": "D:\\sistema\\remessa\\"
+    },
+    {
+      "field": "E_RETO",
+      "sample": "D:\\sistema\\retorno\\"
+    },
+    {
+      "field": "E_LIXE",
+      "sample": "D:\\sistema\\Lixeira\\"
+    },
+    {
+      "field": "E_ANFE",
+      "sample": "D:\\sistema\\saidatxt\\11111111111180\\"
+    },
+    {
+      "field": "E_ABOL",
+      "sample": "D:\\sistema\\boleto\\"
+    },
+    {
+      "field": "E_LOGO",
+      "sample": "D:\\sistema\\diversos\\"
+    },
+    {
+      "field": "E_AVIS",
+      "sample": "51100001010111111101000100010110012101110100000000001110000100011010100001010110100111111001101100100110101"
+    },
+    {
+      "field": "E_OBSE",
+      "sample": "TESTE                         VERIFICAR VETERINARIOS ALVARA VERIFICAR OS DIAS DE FERIADOS OFERECER NOVOS PRODUTOS,      PRODUTO A PROMOCAO PRECO      PRODUTO B PROMOCAO DE QDE"
+    },
+    {
+      "field": "E_CTPI",
+      "sample": "01"
+    },
+    {
+      "field": "E_CIPI",
+      "sample": "07"
+    },
+    {
+      "field": "E_PPIS",
+      "sample": "1.65"
+    },
+    {
+      "field": "E_CTCO",
+      "sample": "01"
+    },
+    {
+      "field": "E_CICO",
+      "sample": "07"
+    },
+    {
+      "field": "E_PCOF",
+      "sample": "7.6"
+    },
+    {
+      "field": "E_BONU",
+      "sample": "40.0"
+    },
+    {
+      "field": "E_JURB",
+      "sample": "10.0"
+    },
+    {
+      "field": "E_JURC",
+      "sample": "15.0"
+    },
+    {
+      "field": "E_SELE",
+      "sample": "2017-09-26"
+    },
+    {
+      "field": "E_NPED",
+      "sample": "357"
+    },
+    {
+      "field": "E_PEDI",
+      "sample": "23"
+    },
+    {
+      "field": "E_PPED",
+      "sample": "8"
+    },
+    {
+      "field": "E_PPAG",
+      "sample": "8"
+    },
+    {
+      "field": "E_NROM",
+      "sample": "92"
+    },
+    {
+      "field": "E_NDIA",
+      "sample": "7"
+    },
+    {
+      "field": "E_DBRO",
+      "sample": "2016-01-01"
+    },
+    {
+      "field": "E_AEST",
+      "sample": "2017-09-26"
+    },
+    {
+      "field": "E_COMP",
+      "sample": "LSYS"
+    },
+    {
+      "field": "E_MFIS",
+      "sample": "0"
+    },
+    {
+      "field": "E_FAP1",
+      "sample": "500.0"
+    },
+    {
+      "field": "E_FAP2",
+      "sample": "1000.0"
+    },
+    {
+      "field": "E_FAP3",
+      "sample": "1500.0"
+    },
+    {
+      "field": "E_FAP4",
+      "sample": "2000.0"
+    },
+    {
+      "field": "E_FAP5",
+      "sample": "0.0"
+    },
+    {
+      "field": "E_VCDI",
+      "sample": "2014-12-31"
+    },
+    {
+      "field": "E_DCOM",
+      "sample": "0.0"
+    },
+    {
+      "field": "E_SEQC",
+      "sample": "00029"
+    },
+    {
+      "field": "E_SEQR",
+      "sample": "R0009"
+    },
+    {
+      "field": "E_SEQP",
+      "sample": "00000"
+    },
+    {
+      "field": "E_SEQF",
+      "sample": "F0022"
+    },
+    {
+      "field": "E_SEQT",
+      "sample": "00003"
+    },
+    {
+      "field": "E_IINI",
+      "sample": "2014-10-08"
+    },
+    {
+      "field": "E_ICON",
+      "sample": "LUIS"
+    },
+    {
+      "field": "E_IFON",
+      "sample": "1159283155"
+    },
+    {
+      "field": "E_ITAB",
+      "sample": "3"
+    },
+    {
+      "field": "E_ILIB",
+      "sample": "2"
+    },
+    {
+      "field": "E_ILIM",
+      "sample": "2000.0"
+    },
+    {
+      "field": "E_IOBS",
+      "sample": "Horario comercial das 08:00Hs as 18:00Hs"
+    },
+    {
+      "field": "E_ITER",
+      "sample": "Pedido sujeito a aprovação de Crédito e Condições de venda,\r\nPodendo ser modificado de acordo com o estoque disponivel no momento da Entrega."
+    },
+    {
+      "field": "E_SROM",
+      "sample": "001002003004005006007008009010"
+    },
+    {
+      "field": "E_DTAB",
+      "sample": "0.0"
+    },
+    {
+      "field": "E_ADIC",
+      "sample": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+    },
+    {
+      "field": "E_PET1",
+      "sample": "1"
+    },
+    {
+      "field": "E_PET2",
+      "sample": "3"
+    },
+    {
+      "field": "E_MET1",
+      "sample": "2016-01-01"
+    },
+    {
+      "field": "E_MET2",
+      "sample": "2016-06-30"
+    },
+    {
+      "field": "E_CASD",
+      "sample": "3"
+    },
+    {
+      "field": "E_MPAD",
+      "sample": "petclin@uol.com.br"
+    },
+    {
+      "field": "E_CSER",
+      "sample": "@uol.com.br"
+    },
+    {
+      "field": "E_CDES",
+      "sample": "smtp.uol.com.br"
+    },
+    {
+      "field": "E_CPOR",
+      "sample": "587"
+    },
+    {
+      "field": "E_CSSL",
+      "sample": "1"
+    },
+    {
+      "field": "E_CAUT",
+      "sample": "1"
+    },
+    {
+      "field": "E_DRAP",
+      "sample": "3"
+    },
+    {
+      "field": "E_SSEP",
+      "sample": "1"
+    },
+    {
+      "field": "E_AAVP",
+      "sample": "30"
+    },
+    {
+      "field": "E_NACE",
+      "sample": ""
+    },
+    {
+      "field": "E_PCOU",
+      "sample": "49"
+    },
+    {
+      "field": "E_PPOU",
+      "sample": "0.0"
+    },
+    {
+      "field": "E_CCOU",
+      "sample": "49"
+    },
+    {
+      "field": "E_CPOU",
+      "sample": "0.0"
+    },
+    {
+      "field": "E_DLVE",
+      "sample": "5"
+    },
+    {
+      "field": "E_LATI",
+      "sample": "-23.6182829"
+    },
+    {
+      "field": "E_LONG",
+      "sample": "-46.5291651"
+    },
+    {
+      "field": "E_BLOC",
+      "sample": "0"
+    },
+    {
+      "field": "E_SSIM",
+      "sample": "2"
+    }
+  ],
+  "users": [
+    {
+      "login": "ROBINSON",
+      "nome": "ROBINSON",
+      "oper": 1,
+      "dien": 9999,
+      "aces_len": 110,
+      "aces_flags_on": 18
+    },
+    {
+      "login": "SEP",
+      "nome": "SEPARADOR",
+      "oper": 2,
+      "dien": 99999,
+      "aces_len": 109,
+      "aces_flags_on": 1
+    }
+  ]
+}
