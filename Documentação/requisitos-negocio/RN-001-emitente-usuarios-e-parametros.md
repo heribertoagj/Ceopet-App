@@ -32,21 +32,21 @@ Toda operação no Hidra está vinculada a um **emitente**. O fluxo legado separ
 ## Fluxo de telas — Emitente
 
 ```text
-Cadastros ? Emitentes
-  ?? Relação de Emitentes (grid + detalhe + Selecionar / Alterar)
-  ?? Informação do Emitente
-        ?? Dados do Emitente (cabeçalho fixo)
-        ?? Abas: Complemento | Configuração | Pastas | Venix | MixPedido
+Cadastros → Emitentes
+  ├─ Relação de Emitentes (grid + detalhe + Selecionar / Alterar)
+  ├─ Informação do Emitente
+        ├─ Dados do Emitente (cabeçalho fixo)
+        ├─ Abas: Complemento | Configuração | Pastas | Venix | MixPedido
                  | Diversos | Diretrizes I–IV
 ```
 
 ## Fluxo de telas — Usuários
 
 ```text
-Cadastros ? Usuarios
-  ?? Relação de Usuarios (Senhas) — CRUD, pesquisa, Copiar/Colar perfil
-  ?? Tabela de Acessos — Bloquear Acessos (módulos + I/A/E/C)
-  ?? Tabela de Acessos — Restrição ao Usuario (exceções de negócio)
+Cadastros → Usuarios
+  ├─ Relação de Usuarios (Senhas) — CRUD, pesquisa, Copiar/Colar perfil
+  ├─ Tabela de Acessos — Bloquear Acessos (módulos + I/A/E/C)
+  ├─ Tabela de Acessos — Restrição ao Usuario (exceções de negócio)
 ```
 
 ## Requisitos funcionais (RNG)

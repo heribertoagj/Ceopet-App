@@ -9,6 +9,6 @@ Registros de workshops TTech + Ceopet. Copie `_TEMPLATE-SESSAO.md` para cada ses
 
 ## Como registrar
 
-1. Copiar `_TEMPLATE-SESSAO.md` ? `SESSAO-2026-MM-DD-RN-004-pedidos.md`
+1. Copiar `_TEMPLATE-SESSAO.md` → `SESSAO-2026-MM-DD-RN-004-pedidos.md`
 2. Preencher durante ou após o workshop
 3. Atualizar esta tabela e o RN correspondente

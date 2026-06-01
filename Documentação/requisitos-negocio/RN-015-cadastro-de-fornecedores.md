@@ -1,65 +1,113 @@
-# RN-015 — Cadastro de fornecedores
+ï»¿# RN-015 â€” Cadastro de fornecedores
 
 | Campo | Valor |
 |-------|-------|
 | **ID** | RN-015 |
-| **Status** | Em validação legado (demo) — rascunho |
+| **Status** | Validado legado (demo) â€” CRUD + lista + atalhos (F0024) |
+| **Ãšltima validaÃ§Ã£o** | 2026-06-01 â€” [SessÃ£o RN-015](../legado/registro-sessoes/SESSAO-2026-06-01-RN-015.md) |
+| **VisÃ£o consolidada** | [RN-CAD-001](RN-CAD-001-cadastros-mvp-consolidado.md) â€” G3.4, G6, fluxo compra |
 | **Fase** | B2B-1 |
-| **Origem legado** | `SCD_FORN`, `scd1for.prg` |
+| **Origem legado** | `SCD_FORN`, `SCD_PCOM`, `scd1for.prg` |
 | **RT relacionado** | RT-015 (pendente) |
+
+**Escopo desta validaÃ§Ã£o:** base demo `C:\Hidra`. CRUD **Incluir/Alterar** + lista + atalhos (F0024). Pendente: Baixa **Confirmar**, abas Produtos/Fechamento entrada (RN-005).
 
 ## Objetivo
 
-Cadastrar e manter fornecedores de mercadorias e serviços, com dados cadastrais, fiscais e comerciais para pedidos de compra, entradas e contas a pagar.
+Cadastrar e manter fornecedores de mercadorias e serviÃ§os, com dados cadastrais, fiscais e comerciais para pedidos de compra, entradas, notas fiscais de entrada e contas a pagar.
 
 ## Contexto
 
-Fornecedor é entidade de **abastecimento** — distinta de **fabricante** (`SCD_FABR`, classificação de produto). Alimenta **RN-005** (pedido de compra, entrada) e **RN-008** (contas a pagar). Permissões CRUD em **RN-001** (I/A/E/C em Fornecedores).
+Fornecedor Ã© entidade de **abastecimento** â€” distinta de **fabricante** (`SCD_FABR`). Alimenta **RN-005**, **RN-007** e **RN-008**. PermissÃµes CRUD em **RN-001** (I/A/E/C em Fornecedores).
 
-**Escopo MVP B2B-1:** incluído junto com cadastros de clientes, produtos e representantes (decisão 2026-06-01). Validação legado **pendente** — após RN-003 ou em paralelo.
+**Escopo MVP B2B-1:** cadastros (decisÃ£o 2026-06-01), junto com RN-003 e RN-009.
 
-## Característica do negócio mapeada
-
-| Dimensão | Descrição |
-|----------|-----------|
-| **Atores** | Compras, fiscal, financeiro |
-| **Canal** | Desktop |
-| **Objeto de negócio** | Fornecedor |
-| **Regra comercial** | Condições de compra; vínculo com pedido e NF entrada |
-| **Estoque** | Indireto — via entrada de mercadoria |
-
-## Fluxo de telas *(inferido — validar no Hidra)*
+## Fluxo de telas
 
 ```text
-Cadastros ? Fornecedores
-  ?? Cadastro de Fornecedores (lista + detalhe)
-  ?     • Pesquisa
-  ?     • Incluir | Alterar | Excluir | Consulta
-  ?? Informação do Fornecedor
-        • Abas: *(a confirmar via prints)*
+Cadastros â†’ Fornecedores
+  â”œâ”€ Cadastro de Fornecedores (lista + atalhos)
+  â”‚     â€¢ Incluir | Alterar | Excluir | Consulta
+  â”‚     â€¢ Notas Fiscais | Pedidos de Compra | Contas a Pagar | Retornar
+  â””â”€ InformaÃ§Ã£o do Fornecedor (modal Incluir/Alterar)
+        â”œâ”€ Cadastro â€” cÃ³digo, tipo, empresa, endereÃ§o, fiscal
+        â”œâ”€ Dados do Fornecedor â€” fantasia, contato, frete, prazo
+        â””â”€ SALVAR | CANCELAR
 ```
 
 ## Requisitos funcionais (RNG)
 
-- **RNG-015-01:** Pesquisar fornecedores e exibir lista com código, razão social, documento e indicadores operacionais.
-- **RNG-015-02:** Incluir, alterar, excluir e consultar fornecedor; código automático ou informado.
-- **RNG-015-03:** Manter dados cadastrais: tipo pessoa, CNPJ/CPF, razão social, fantasia, endereço, contato, e-mail, IE.
-- **RNG-015-04:** Manter dados fiscais/comerciais relevantes à compra (condição pagamento, observações — *campos a confirmar*).
-- **RNG-015-05:** Disponibilizar fornecedor em lookup de **pedido de compra** (RN-005) e **entrada de mercadoria**.
+### Lista *(validado â€” F0024)*
 
-## Critérios de aceite de negócio (CANG)
+- **RNG-015-01:** Grid **FORNECEDORES**, **CNPJ/CPF**, **TELEFONE**, **COD**; painel endereÃ§o, IE, LicenÃ§a, Validade, Email.
 
-- **CANG-015-01:** Dado fornecedor cadastrado, quando operador cria pedido de compra, então fornecedor é selecionável e dados cadastrais são recuperados.
-- **CANG-015-02:** Dado alteração em **Informação do Fornecedor**, quando operador confirma **Gravar**, então dados persistem; **Cancelar** descarta.
+### Consulta / atalhos *(validado â€” F0024)*
 
-## Dúvidas em aberto
+- **RNG-015-02:** **Consulta** â€” Fornecedor + Financeiro + Compras.
+- **RNG-015-06:** **Notas Fiscais** â†’ entrada **19528**.
+- **RNG-015-07:** **Pedidos de Compra** â†’ alerta sem pedido aberto.
+- **RNG-015-08:** **Contas a Pagar** â†’ 5 parcelas **19528**; **Juros** / **Baixa PAGAR**.
 
-- [ ] Estrutura de abas do formulário (paridade com cliente?).
-- [ ] Fornecedor × fabricante — quando Ceopet usa cada um.
-- [ ] Bloqueio/inativação de fornecedor.
+### FormulÃ¡rio Incluir/Alterar *(validado â€” demo)*
 
-## Referências legado
+- **RNG-015-03:** **Incluir** / **Alterar** abrem modal **InformaÃ§Ã£o do Fornecedor** â€” duas seÃ§Ãµes **Cadastro** e **Dados do Fornecedor** *(tela Ãºnica, sem abas)*; **SALVAR** / **CANCELAR** *(rÃ³tulos em vermelho = obrigatÃ³rios)*.
+- **RNG-015-03a â€” SeÃ§Ã£o Cadastro:** **Codigo** (combo **Automatico** + campo manual), **Tipo** (combo **Juridica** + **CNPJ/CPF** mascarado), **Empresa**, **EndereÃ§o**, **Cidade** Â· **Estado** Â· **Cep**, **Bairro** Â· **I.Estadual**, **LicenÃ§a** Â· **Validade**, **Email**.
+- **RNG-015-03b â€” SeÃ§Ã£o Dados do Fornecedor:** **Fantasia**, **Contato** Â· **Telefone**, **Celular** Â· **Frete** (combo), **Transporte**, **Prazo**, **Obs**, **Cadastro** (data).
+- **RNG-015-03c â€” Defaults Incluir (demo):** Codigo **Automatico** Â· Tipo **Juridica** Â· Frete **Fornecedor (CIF)** Â· **Cadastro 01/06/2026** Â· demais vazios.
+- **RNG-015-03d:** **Alterar F0024** â€” mesma estrutura; **Empresa** exibida como **Nome** na Consulta/lista.
+
+## ValidaÃ§Ã£o legado (demo)
+
+### FormulÃ¡rio **Incluir**
+
+**Caminho:** Cadastros â†’ Fornecedores â†’ **Incluir**.
+
+#### SeÃ§Ã£o **Cadastro**
+
+| Campo | Default inclusÃ£o |
+|-------|------------------|
+| Codigo | **Automatico** (+ campo cÃ³digo) |
+| Tipo | **Juridica** + CNPJ/CPF mascarado |
+| Empresa | vazio |
+| EndereÃ§o | vazio |
+| Cidade / Estado / Cep | vazios |
+| Bairro / I.Estadual | vazios |
+| LicenÃ§a / Validade | vazios |
+| Email | vazio |
+
+#### SeÃ§Ã£o **Dados do Fornecedor**
+
+| Campo | Default inclusÃ£o |
+|-------|------------------|
+| Fantasia | vazio |
+| Contato / Telefone | vazios *(mÃ¡scara telefone)* |
+| Celular / Frete | vazio Â· **Fornecedor (CIF)** |
+| Transporte | vazio |
+| Prazo | vazio |
+| Obs | vazio |
+| Cadastro | **01/06/2026** |
+
+**SALVAR** Â· **CANCELAR**
+
+### Contas a Pagar Â· Baixa *(19528/1)*
+
+**Baixa PAGAR:** valor **1.664,71** â†’ **Valor Calculado 21.263,90** *(Confirmar pendente)*.
+
+## Checklist MVP cadastros
+
+| # | Item | Status |
+|---|------|--------|
+| 1 | Lista + Consulta + atalhos | âœ… |
+| 2 | **Incluir/Alterar** (2 seÃ§Ãµes + defaults) | âœ… |
+| 3 | Baixa Confirmar | Pendente |
+
+## DÃºvidas em aberto
+
+- [ ] Coluna **Nota Fiscal = 0** no grid Compras.
+- [ ] OpÃ§Ãµes completas combo **Frete** alÃ©m de *Fornecedor (CIF)*.
+- [x] FormulÃ¡rio = **1 modal**, seÃ§Ãµes Cadastro + Dados do Fornecedor (RNG-015-03).
+
+## ReferÃªncias
 
 - Tabelas: `SCD_FORN`, `SCD_PCOM`, `SCD_ICOM`
-- Programas: `scd1for.prg`
-- RNs relacionados: [RN-005 — Compras](RN-005-compras-e-entradas.md), [RN-008 — Financeiro](RN-008-financeiro-boletos-cheques.md), [RN-001 — Permissões](RN-001-emitente-usuarios-e-parametros.md)
+- RNs: [RN-CAD-001](RN-CAD-001-cadastros-mvp-consolidado.md), [RN-003](RN-003-cadastro-de-produtos.md), [RN-005](RN-005-compras-e-entradas.md), [RN-008](RN-008-financeiro-boletos-cheques.md)

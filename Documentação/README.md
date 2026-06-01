@@ -98,7 +98,7 @@ python Documentacao/_tools/gerar_pdf_requisitos.py
 
 | [RN-004](requisitos-negocio/RN-004-pedidos-de-venda.md) | Pedidos de venda | Validado legado (demo) — parcial | B2B-1 |
 
-| [RN-005](requisitos-negocio/RN-005-compras-e-entradas.md) | Compras e entradas | Rascunho | B2B-1 |
+| [RN-005](requisitos-negocio/RN-005-compras-e-entradas.md) | Compras e entradas | Validado legado (demo) — parcial | B2B-1 |
 
 | [RN-006](requisitos-negocio/RN-006-estoque-e-lotes.md) | Estoque e lotes | Rascunho | B2B-1 |
 
@@ -107,6 +107,10 @@ python Documentacao/_tools/gerar_pdf_requisitos.py
 | [RN-008](requisitos-negocio/RN-008-financeiro-boletos-cheques.md) | Financeiro | Rascunho | B2B-1 |
 
 | [RN-009](requisitos-negocio/RN-009-representantes-comissao-metas.md) | Representantes e metas | Validado legado (demo) | B2B-1 |
+
+| [RN-015](requisitos-negocio/RN-015-cadastro-de-fornecedores.md) | Fornecedores | Validado legado (demo) | B2B-1 |
+
+| [RN-CAD-001](requisitos-negocio/RN-CAD-001-cadastros-mvp-consolidado.md) | **Cadastros MVP — visão consolidada** | Agregação 001/002/003/009/015 | B2B-1 |
 
 | [RN-010](requisitos-negocio/RN-010-expedicao-romaneio-separacao.md) | Expedição e romaneio | Rascunho | B2B-1 |
 

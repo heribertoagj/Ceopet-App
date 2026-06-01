@@ -31,7 +31,7 @@ cd C:\Hidra
 
 - [ ] Emitente selecionado/cadastrado (obrigatório — erro `emit` se faltar índice ou pasta errada)
 - [ ] Anotar data, participantes Ceopet e TTech
-- [ ] Gravar caminho de menu percorrido (Cadastros ? …)
+- [ ] Gravar caminho de menu percorrido (Cadastros → …)
 - [ ] Tirar print da tela (nome sugerido: `RN-XXX-01-descricao.png`)
 - [ ] Anotar mensagens de erro/validação exatas
 - [ ] Conferir qual DBF muda após a operação (ver tabela por RN abaixo)
@@ -99,7 +99,7 @@ Template de sessão: [registro-sessoes/_TEMPLATE-SESSAO.md](registro-sessoes/_TE
 
 - [ ] Quantos emitentes usam na operação real?
 - [ ] Matriz de permissões (`S_ACES`) — o que cada perfil pode?
-- [ ] Paths `D:\sistema\...` ainda usados? Migrar para `C:\Hidra\...`?
+- [ ] Paths `D:\sistema\...` ainda usados→ Migrar para `C:\Hidra\...`?
 
 ### Evidências DBF
 
@@ -152,7 +152,7 @@ Template de sessão: [registro-sessoes/_TEMPLATE-SESSAO.md](registro-sessoes/_TE
 
 ---
 
-## Sessão 4 — Pedidos de venda (RN-004) ? crítico
+## Sessão 4 — Pedidos de venda (RN-004) → crítico
 
 **Programas:** `scd2ven.prg`, `scd2ped.prg`  
 **Tabelas:** `SCD_PEDI`, `SCD_ITEM`, `SCD_COND`
@@ -160,8 +160,8 @@ Template de sessão: [registro-sessoes/_TEMPLATE-SESSAO.md](registro-sessoes/_TE
 ### Fluxo mínimo a demonstrar
 
 ```
-Novo pedido ? incluir itens ? gravar ? fechar
-? bloquear/liberar ? reservar ? (separar) ? faturar
+Novo pedido → incluir itens → gravar → fechar
+→ bloquear/liberar → reservar → (separar) → faturar
 ```
 
 ### Percorrer no menu
@@ -285,7 +285,7 @@ Novo pedido ? incluir itens ? gravar ? fechar
 
 1. Preencher [registro de sessão](registro-sessoes/_TEMPLATE-SESSAO.md) (copiar para `SESSAO-YYYY-MM-DD-RN-XXX.md`)
 2. Atualizar seção **Dúvidas em aberto** do RN correspondente
-3. Marcar RNG/CANG confirmados; status RN ? **Validado negócio** quando Ceopet assinar
+3. Marcar RNG/CANG confirmados; status RN → **Validado negócio** quando Ceopet assinar
 4. Registrar no [levantamento.md](../levantamento.md) (histórico)
 
 ---
@@ -305,4 +305,4 @@ Novo pedido ? incluir itens ? gravar ? fechar
 
 Cadastros · Clientes · Produtos · Fornecedores · Representantes · Pedidos de Venda · Pedidos de Compra · Estoque · Notas Fiscais · Boletos · Romaneio · Separação · Visitas · Metas · Relatórios · Integrações (Venix, Accera, e-mail, maps)
 
-Lista completa: `Documentacao/_tools/hidra_inventory.json` ? `menu_items`
+Lista completa: `Documentacao/_tools/hidra_inventory.json` → `menu_items`

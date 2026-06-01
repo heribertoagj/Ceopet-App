@@ -91,10 +91,12 @@ Fornecedor → Pedido de compra → Entrada → Estoque
 | RN-001 | Emitente, usuários | ✅ Demo |
 | RN-002 | Clientes | ✅ Demo |
 | **RN-003** | **Produtos** | ✅ Demo (CRUD 5 abas) |
-| **RN-009** | **Representantes** | ✅ Demo (CRUD 3 abas) |
-| **RN-015** | **Fornecedores** | ⏳ Pendente |
+| **RN-009** | **Representantes** | ✅ Demo (CRUD + atalhos lista V0002) |
+| **RN-015** | **Fornecedores** | ✅ Demo (CRUD + atalhos F0024) |
 
 Demais RNs (004 pedidos, 005 compras, 006 estoque, 007 NF-e, 008 financeiro) seguem após cadastros base.
+
+**Visão consolidada (agrupamentos + fluxos):** [RN-CAD-001 — Cadastros MVP consolidado](requisitos-negocio/RN-CAD-001-cadastros-mvp-consolidado.md)
 
 ## Mapa de requisitos derivados
 

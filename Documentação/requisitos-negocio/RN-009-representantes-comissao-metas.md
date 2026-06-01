@@ -3,13 +3,13 @@
 | Campo | Valor |
 |-------|-------|
 | **ID** | RN-009 |
-| **Status** | Validado legado (demo) — CRUD lista + 3 abas; pendente atalhos/comissão/relatórios |
+| **Status** | Validado legado (demo) — CRUD + todos os atalhos lista (V0002) |
 | **Última validação** | 2026-06-01 — [Sessão RN-009](../legado/registro-sessoes/SESSAO-2026-06-01-RN-009.md) |
 | **Fase** | B2B-1 |
 | **Origem legado** | `SCD_REPR`, `SCD_META`, `scd1rep.prg`, `scd3rep.prg` |
 | **RT relacionado** | RT-009 (pendente) |
 
-**Escopo desta validação:** base demo `C:\Hidra`. CRUD representante + atalho **Pedidos** (V0002). Pendente: demais atalhos, relatórios.
+**Escopo desta validação:** base demo `C:\Hidra`. CRUD representante + **todos os atalhos** da lista (V0002). Pendente: Geral, positivação, mix produto.
 
 ## Objetivo
 
@@ -40,7 +40,7 @@ Cadastros → Representantes
   │     • Geral | Incluir | Alterar | Excluir | Consulta
   │     • Grid: representante, CNPJ/CPF, código, telefone, HIST, situação
   │     • Painéis: Informação, Supervisor, Crédito (sync), Geolocalização
-  │     • Atalhos: Pedidos ✅, Titulos, Historico, Comissão, Referencia, Finalizar
+  │     • Atalhos: Pedidos ✅, Titulos ✅, Historico ✅, Comissão ✅, Referencia ✅, Finalizar
   └─ Informação do Representante (Incluir / Alterar / Consulta)
         ├─ Dados do Representante (cabeçalho fixo)
         └─ Abas: Dados Cadastrais | Operação de crédito | Informações Diversas
@@ -48,7 +48,24 @@ Cadastros → Representantes
 
   Atalho Pedidos (lista):
   └─ Pedidos do Representante — cabeçalho rep. + grid pedidos
-        • Finalizar | Detalhe → Consulta Pedidos de Venda | Resumo
+        • Finalizar | Detalhe → Consulta Pedidos de Venda | Resumo *(sem efeito demo)*
+
+  Atalho Titulos (lista):
+  └─ Titulos do Representante — cabeçalho rep. + grid titulos
+        • Extrato ✅ | Resumo *(inerte)* | Baixa *(inerte)* | Juros ✅ | Finalizar
+
+  Atalho Historico (lista):
+  └─ Historico do Representante — cabeçalho rep. + área texto
+        • Retornar | Gravar Historico
+
+  Atalho Comissão (lista):
+  └─ Extrato de Comissão — filtros + grid Historico + CRUD linhas
+        • Incluir | Alterar | Excluir | Confirmar | Cancelar
+
+  Atalho Referencia (lista):
+  └─ Referencias para o Representante (período vendas)
+        └─ Referencia do Representante — grid FABR/PROD + totais
+              • Incluir | Alterar | Excluir | Processar | Imprimir | Finalizar
 
 Atalho (lista clientes — RN-002):
   └─ Substituir Representantes → Transferencia de Representantes ✅
@@ -70,6 +87,29 @@ Atalho (lista clientes — RN-002):
 
 - **RNG-009-15:** Lista → **Pedidos** — tela **Pedidos do Representante** *(título janela: Informação do Representante)*: cabeçalho **Representante**; grid **Pedidos**: **Data**, **Numero**, **Emissao**, **Nota Fiscal**, **Valor do Pedido**, **Situação**, **Data**, **Hora**, **Repres**; **Finalizar**, **Detalhe**, **Resumo**.
 - **RNG-009-15a:** Grid → **Detalhe** abre **Consulta Pedidos de Venda** (RN-004 RNG-004-13) — consulta somente leitura; **Retornar** volta ao grid.
+- **RNG-009-15b:** Botão **Resumo** na tela de pedidos do representante — **não abre tela** na demo *(clique sem efeito visível)*.
+
+### Atalho Titulos *(validado — demo V0002)*
+
+- **RNG-009-16:** Lista → **Titulos** — tela **Titulos do Representante** *(título: Informação do Representante)*: cabeçalho **Representante**; grid **Titulos**: **Documento**, **Emissao**, **Vencimento**, **Pagamento**, **Valor da Parcela**, **Portador**, **Banco**, **Boleto**, **Cliente**; **Extrato**, **Resumo**, **Baixa**, **Juros**, **Finalizar** *(mesma família RN-002 RNG-002-14 / RN-008 — filtro por representante)*.
+- **RNG-009-16a:** Parcelas vinculadas ao pedido **9000975** do representante — cliente **C0082**; soma parcelas ≈ valor do pedido (855,57).
+- **RNG-009-16b:** **Extrato** → modal **Extrato do Representante** — **Formato do Extrato** (ex.: Analítico), **Seleção do Extrato** (ex.: Aberto), **Selecionar Portador** (ex.: Todos), **Saída de Impressão** (ex.: Impressora), **Data Inicial/Final**, **Nome Arquivo (.txt)**; **Confirmar** gera/imprime relatório · **Cancelar** *(RN-008 RNG-008-09b)*.
+- **RNG-009-16c:** Botões **Resumo** e **Baixa** na tela de títulos do representante — **sem ação** na demo *(clique sem efeito visível)* — distinto do atalho **Titulos** do **cliente** (RN-002: Baixa validada).
+- **RNG-009-16d:** Botão **Juros** — **atualiza coluna Valor da Parcela** na grid com principal + juros recalculados *(mesma regra RN-002 RNG-002-14b / RN-008 RNG-008-09)*.
+
+### Atalho Historico *(validado — demo V0002)*
+
+- **RNG-009-17:** Lista → **Historico** — tela **Historico do Representante** *(título: Informação do Representante)*: cabeçalho **Representante**; área **Historico** (texto livre / memo); **Retornar**, **Gravar Historico** *(espelha RN-002 RNG-002-16 — sem painel financeiro nem bloqueio de cliente)*.
+
+### Atalho Comissão *(validado — demo V0002)*
+
+- **RNG-009-18:** Lista → **Comissão** — **Extrato de Comissão para** *(representante)*: **Formato do Extrato** (ex.: Recebimento), **Data de Comissão** (ex.: Data de Aviso), **Imprimir com Recibo**, **Imprimir 1/12 Avos**, **Imprimir em Aberto**; **Valor para Pagamento** (%), **Data Inicial/Final**, **Data Base**, **Data do Recibo**; grid **Historico** (Data, Historico, Valor, D/C) com **Incluir**, **Alterar**, **Excluir**; **Confirmar** / **Cancelar** *(RNG-009-07)*.
+- **RNG-009-18a:** Demo V0002 — grid **Historico** vazio; defaults período **21/10/2016**–**01/06/2026**, pagamento **100,00%**, recibo **01/06/2026**.
+
+### Atalho Referencia *(validado — demo V0002)*
+
+- **RNG-009-19:** Lista → **Referencia** — modal **Referencias para o Representante**: **Periodo Inicial de Vendas**, **Periodo Final de Vendas**; **Referencia** / **Cancelar**.
+- **RNG-009-19a:** Após **Referencia** — tela **Referencia do Representante** *(Informação do Representante)*: cabeçalho **Representante**; grid **Referencia**: **FABR**, **PROD**, **DESCRICAO**, **REFERENCIA R$**, **VENDA R$**, **(R%)**, **PREMIO**, **S**; totais **TOTAIS DAS REFERENCIAS**; **Incluir**, **Alterar**, **Excluir**, **Processar**, **Imprimir**, **Finalizar** *(relacionado positivação/prêmio — RNG-009-08)*.
 
 ### Formulário Incluir/Alterar *(validado — estrutura)*
 
@@ -84,16 +124,15 @@ Atalho (lista clientes — RN-002):
 - **RNG-009-04:** Substituir representante em carteira via **Transferencia de Representantes** (RN-002 RNG-002-18): origem/destino, **Transfere os Pedidos?**, **Período de Cadastro**.
 - **RNG-009-05:** Informar e calcular **metas** por representante/período (aba Diversos — campo meta; relatórios pendentes).
 - **RNG-009-06:** Calcular **comissão** sobre vendas conforme cadastro rep + tabela produto/faixa (RN-003).
-- **RNG-009-07:** Gerar extrato de comissão e relatórios representante × produtos × vendas.
-- **RNG-009-08:** **Positivação** — presença de produtos/clientes ativos por representante.
+- **RNG-009-07:** Gerar **Extrato de Comissão** por representante — ver RNG-009-18 *(relatórios produtos × vendas pendentes)*.
+- **RNG-009-08:** **Positivação** / **Referencia** — vendas por produto/fabricante no período; prêmio e % referência *(atalho Referencia — RNG-009-19)*.
 - **RNG-009-09:** Exportar representantes e supervisores para sistemas externos.
 - **RNG-009-10:** Relatórios de devedores por representante (mensal, anual, resumo).
 
 ### Pendentes de validação
 
-- **RNG-009-12:** Atalhos **Titulos**, **Historico**, **Comissão**, **Referencia** na lista.
 - **RNG-009-13:** Botão **Geral** (pesquisa ampliada — padrão clientes).
-- **RNG-009-14:** Relatórios comissão, metas, positivação, exportação.
+- **RNG-009-14:** Relatórios positivação/exportação; **Processar**/**Imprimir** Referencia; **Confirmar** extrato comissão *(não testados)*.
 
 ## Critérios de aceite de negócio (CANG)
 
@@ -103,6 +142,12 @@ Atalho (lista clientes — RN-002):
 - **CANG-009-04:** Dado tabelas A–J marcadas no representante, quando pedido usa tabela desabilitada, então sistema impede ou alerta conforme política.
 - **CANG-009-05:** Dado alteração em **Informação do Representante**, quando operador confirma **Gravar**, então dados persistem; **Cancelar** descarta.
 - **CANG-009-06:** Dado representante selecionado, quando operador aciona **Pedidos**, então grid exibe pedidos daquele representante com número, valor e situação.
+- **CANG-009-07:** Dado representante selecionado, quando operador aciona **Titulos**, então grid exibe parcelas a receber da carteira daquele representante (documento, vencimento, portador, cliente).
+- **CANG-009-08:** Dado filtros em **Extrato do Representante**, quando operador **Confirmar**, então sistema imprime ou exporta relatório conforme **Saída de Impressão** e período informados.
+- **CANG-009-09:** Dado títulos vencidos na grid do representante, quando operador aciona **Juros**, então **Valor da Parcela** exibe valor atualizado com juros.
+- **CANG-009-10:** Dado texto em **Historico** do representante, quando operador aciona **Gravar Historico**, então observações persistem para consulta futura.
+- **CANG-009-11:** Dado parâmetros em **Extrato de Comissão**, quando operador **Confirmar**, então sistema gera extrato/recibo conforme formato e período informados.
+- **CANG-009-12:** Dado período de vendas em **Referencias para o Representante**, quando operador **Referencia**, então grid exibe produtos com referência, venda, % e prêmio no intervalo informado.
 
 ## Validação legado — demo (2026-06-01)
 
@@ -145,7 +190,7 @@ Cabeçalho **Representante**: V0002 · REPRESENTANTE TESTE · TESTE · CPF 000.0
 
 Colunas adicionais: **Emissao** *(vazia no demo)* · segunda coluna **Data**.
 
-**Finalizar** · **Detalhe** · **Resumo**
+**Finalizar** · **Detalhe** · **Resumo** *(demo: **Resumo** inerte — sem tela)*
 
 #### Detalhe — **Consulta Pedidos de Venda** *(pedido **9000975**)*
 
@@ -175,9 +220,104 @@ Colunas adicionais: **Emissao** *(vazia no demo)* · segunda coluna **Data**.
 
 **Retornar** — abas Produtos/Fechamento pendentes.
 
-#### Demais atalhos *(pendentes)*
+#### Atalho **Titulos** *(validado — V0002)*
 
-Titulos · Historico · Comissão · Referencia · Finalizar (lista)
+**Caminho:** Cadastro de Representantes → **Titulos**.
+
+Cabeçalho **Representante** — mesmo padrão do atalho Pedidos (V0002).
+
+| Documento | Emissão | Vencimento | Valor | Portador | Banco / Boleto | Cliente |
+|-----------|---------|------------|-------|----------|----------------|---------|
+| **9000975/1** | 23/09/2016 | 21/10/2016 | **427,79** | 3-Cheque | — | **C0082** |
+| **9000975/2** | 23/09/2016 | 28/10/2016 | **427,78** | 2-Boleto | 237 / 23700000002P | **C0082** |
+
+**Pagamento** vazio (em aberto). Total **855,57** = pedido **9000975** (RN-004). Mesmas parcelas do atalho **Titulos** do cliente C0082 (RN-002 RNG-002-14).
+
+**Extrato** · **Resumo** · **Baixa** · **Juros** · **Finalizar**
+
+#### Extrato *(validado — V0002)*
+
+**Caminho:** Titulos do Representante → **Extrato** → **Extrato do Representante REPRESENTANTE TESTE**.
+
+| Campo | Demo |
+|-------|------|
+| Formato do Extrato | **Analitico** |
+| Seleção do Extrato | **Aberto** |
+| Selecionar Portador | **Todos** |
+| Saída de Impressão | **Impressora** |
+| Data Inicial / Final | **21/10/2016** / **01/06/2026** |
+| Nome Arquivo (.txt) | vazio |
+
+**Confirmar** — **imprime relatório** (demo). **Cancelar** descarta.
+
+*(Cliente C0082 — Extrato usa filtros distintos; ver RN-002 RNG-002-14c.)*
+
+| Botão | Comportamento demo |
+|-------|-------------------|
+| **Resumo** | **Sem ação** |
+| **Baixa** | **Sem ação** *(no cliente RN-002: Baixa funciona)* |
+| **Juros** | **Atualiza Valor da Parcela** na grid (principal + juros) |
+
+#### Atalho **Historico** *(validado — V0002)*
+
+**Caminho:** Cadastro de Representantes → **Historico**.
+
+Cabeçalho **Representante** — V0002 · REPRESENTANTE TESTE · TESTE · endereço/telefone *(mesmo padrão Pedidos/Titulos)*.
+
+| Elemento | Demo |
+|----------|------|
+| Área **Historico** | **vazia** |
+| **Gravar Historico** | disponível *(gravação não testada)* |
+| **Retornar** | fecha tela |
+
+Sem painel financeiro nem **Bloquear Cliente** *(presentes no Historico do cliente — RN-002)*.
+
+#### Atalho **Comissão** *(validado — V0002)*
+
+**Caminho:** Cadastro de Representantes → **Comissão** → **Extrato de Comissão para REPRESENTANTE TESTE**.
+
+| Parâmetro | Demo |
+|-----------|------|
+| Formato do Extrato | **Recebimento** |
+| Data de Comissão | **Data de Aviso** |
+| Imprimir com Recibo | **Sim** |
+| Imprimir 1/12 Avos | **Sim** |
+| Imprimir em Aberto | **Não** |
+| Valor para Pagamento | **100,00%** |
+| Data Inicial / Final | **21/10/2016** / **01/06/2026** |
+| Data Base | vazia |
+| Data do Recibo | **01/06/2026** |
+
+Grid **Historico** (Data · Historico · Valor · D/C): **vazio** no demo.
+
+**Incluir** · **Alterar** · **Excluir** · **Confirmar** · **Cancelar** — CRUD de linhas e geração do extrato *(Confirmar/impressão pendente teste)*.
+
+#### Atalho **Referencia** *(validado — V0002)*
+
+**Caminho:** Cadastro de Representantes → **Referencia**.
+
+**1. Modal Referencias para o Representante**
+
+| Campo | Demo |
+|-------|------|
+| Periodo Inicial de Vendas | **01/06/2026** |
+| Periodo Final de Vendas | **30/06/2026** |
+
+**Referencia** · **Cancelar**
+
+**2. Tela Referencia do Representante** *(após Referencia)*
+
+Cabeçalho **Representante** — V0002 · REPRESENTANTE TESTE *(padrão demais atalhos)*.
+
+| Coluna grid | |
+|-------------|--|
+| FABR · PROD · DESCRICAO | fabricante / produto |
+| REFERENCIA R$ · VENDA R$ · (R%) · PREMIO | valores |
+| S | status |
+
+Grid **vazio** no demo · **TOTAIS DAS REFERENCIAS:** 0,00 · 0,00 · 0,00%
+
+**Incluir** · **Alterar** · **Excluir** · **Processar** · **Imprimir** · **Finalizar** — Processar/Imprimir não testados.
 
 ### Formulário (`Informação do Representante`)
 
@@ -234,9 +374,13 @@ Ver [RN-002](RN-002-cadastro-de-clientes.md) RNG-002-18.
 |---|------|--------|
 | 1 | Lista + painéis (V0002) | ✅ Validado |
 | 2 | **Incluir/Alterar** — 3 abas + cabeçalho | ✅ Estrutura |
-| 3 | Atalho **Pedidos** + **Detalhe** | ✅ Validado (9000975) |
-| 3a | Titulos / Histórico / Comissão / Referência | Pendente |
-| 4 | Relatórios comissão, metas, positivação | Pendente |
+| 3 | Atalho **Pedidos** + **Detalhe** / **Resumo** | ✅ Detalhe OK · Resumo inerte |
+| 3a | Atalho **Titulos** (grid) | ✅ Validado (9000975/1–2) |
+| 3b | Titulos — Extrato / Juros / Resumo / Baixa | ✅ Extrato + Juros OK · Resumo/Baixa inertes |
+| 3d | Atalho **Historico** | ✅ Validado (vazio) |
+| 3e | Atalho **Comissão** (Extrato) | ✅ Validado (grid vazio) |
+| 3f | Atalho **Referencia** (período + grid) | ✅ Validado (vazio) |
+| 4 | Geral · positivação · Processar/Imprimir | Pendente |
 | 5 | Mix produto × representante | Pendente |
 
 ## Dúvidas em aberto
@@ -244,6 +388,9 @@ Ver [RN-002](RN-002-cadastro-de-clientes.md) RNG-002-18.
 - [ ] Supervisor **V0002** no demo — auto-supervisão ou placeholder?
 - [ ] Diferença **Comissão** vs **Comissão (ST)** vs comissão por tabela produto (RN-003).
 - [ ] Periodicidade de fechamento de comissão e sincronização de crédito.
+- [x] **Resumo** (Pedidos rep.) — demo: sem efeito.
+- [x] **Resumo** / **Baixa** (Titulos rep.) — demo: sem efeito; **Baixa** funciona pelo atalho **Titulos** do **cliente** (RN-002).
+- [x] **Juros** (Titulos rep.) — demo: atualiza **Valor da Parcela** na grid.
 - [ ] Hierarquia supervisor × representante × distribuidor.
 
 ## Referências legado
@@ -251,4 +398,4 @@ Ver [RN-002](RN-002-cadastro-de-clientes.md) RNG-002-18.
 - Tabelas: `SCD_REPR`, `SCD_META`, campos comissão em `SCD_PROD`, `SCD_PEDI`, `SCD_DEST`
 - Programas: `scd1rep.prg`, `scd3rep.prg`
 - Sessão: [SESSAO-2026-06-01-RN-009.md](../legado/registro-sessoes/SESSAO-2026-06-01-RN-009.md)
-- RNs relacionados: [RN-002](RN-002-cadastro-de-clientes.md), [RN-003](RN-003-cadastro-de-produtos.md), [RN-004](RN-004-pedidos-de-venda.md), [RN-015](RN-015-cadastro-de-fornecedores.md)
+- RNs relacionados: [RN-002](RN-002-cadastro-de-clientes.md), [RN-003](RN-003-cadastro-de-produtos.md), [RN-004](RN-004-pedidos-de-venda.md), [RN-008](RN-008-financeiro-boletos-cheques.md), [RN-015](RN-015-cadastro-de-fornecedores.md)
