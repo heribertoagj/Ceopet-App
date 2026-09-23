@@ -1,4 +1,4 @@
-﻿# Ceopet-App
+﻿# ceopet-app
 
 Projeto de **documentação e modernização** do sistema legado **Hidra** (ERP xHarbour para distribuição veterinária B2B).
 
@@ -7,12 +7,20 @@ Projeto de **documentação e modernização** do sistema legado **Hidra** (ERP 
 | **Cliente** | Ceopet |
 | **Consultoria e documentação** | TransformaTech (TTech) |
 
+## Estrutura
+
+```
+ceopet/
+├── apps/          # Aplicações (legado Hidra hoje; modernização futura)
+└── docs/          # Requisitos, ADRs, entregas (RN/RT)
+```
+
 ## Comece aqui
 
-- [Documentação / README](Documentação/README.md) — índice de requisitos (RN/RT)
-- [Levantamento inicial](Documentação/levantamento.md) — metodologia e lacunas
-- [Legado Hidra](Documentacao/Hidra/) — executável, DBF e integrações
-- [PDF para stakeholders](Documentação/entregas/Ceopet-Requisitos-Negocio-20260601.pdf) — requisitos consolidados
+- [Documentação / README](ceopet/docs/README.md) — índice de requisitos (RN/RT)
+- [Levantamento inicial](ceopet/docs/levantamento.md) — metodologia e lacunas
+- [Legado Hidra](ceopet/apps/legado/Hidra/) — executável, DBF e integrações
+- [PDF para stakeholders](ceopet/docs/entregas/Ceopet-Requisitos-Negocio-20260601.pdf) — requisitos consolidados
 
 ## Status atual
 
