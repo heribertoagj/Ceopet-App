@@ -17,3 +17,10 @@ Documentacao/Hidra.zip
 *.py
 *ps1
 *pyc
+.cursor/skills/workflow-projeto/
+.cursor/skills/documentacao-de-software/
+.cursor/skills/tarifa-hora/
+.cursor/skills/brainstorming/
+.cursor/skills/clarification/
+.cursor/skills/architecture/
+.cursor/skills/implementacao/
